@@ -1,0 +1,191 @@
+# This file is distributed under the same license as the anyLink package.
+msgid ""
+msgstr ""
+"Project-Id-Version: anyLink 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/anylink\n"
+"POT-Creation-Date: 2014-07-24 14:24:11+00:00\n"
+"PO-Revision-Date: 2014-07-25 00:30+1000\n"
+"Last-Translator: dudo <fenglingziyi@163.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: al_setting.php:5 classes/al_option.php:11
+msgid "anylink Settings"
+msgstr "anylink设置"
+
+#: al_setting.php:11 al_setting.php:19
+msgid "Establish Index"
+msgstr "建立索引"
+
+#: al_setting.php:14
+msgid ""
+"For the first time after you running anylink, you need indexing ALL posts. "
+"It'll let you establish index for the posts already in your Wordpress. For "
+"the newly publish or update post, index is done automatically. And you "
+"needn't do anything."
+msgstr ""
+"在第一次安装 andlink 时你需要对所有文章进行重新索引。 该过程是对原有文章中的"
+"外链进行索引。在安装anylink之后新发表/更新的文章anylink会自动完成索引，你不需"
+"要手动进行引操作。"
+
+#: al_setting.php:23
+msgid ""
+"For the first time running, you need scan all the exist comments manually."
+msgstr "第一次运行anylink插件，您必需手动扫描以前所有评论内容"
+
+#: al_setting.php:28
+#, fuzzy
+msgid "Regenerate comment slugs"
+msgstr "重新生成slug"
+
+#: al_setting.php:31
+msgid ""
+"Allows you to generate slugs manually. Keep in mind that please do not "
+"regenerate slugs unless you changed slug settings. Search engines may think "
+"that you have modified your articles."
+msgstr ""
+"允许用户多次生成slug（链接后面的随机字母）。不过需要提醒的是，除非您修改了"
+"slug的样式，请尽量不要重新生成slug，这会改变您页面中的链接，对于搜索引擎来说"
+"可能会认为您的文章进行了修改。"
+
+#: al_setting.php:31
+msgid "Note: It won't work unless slug settings are changed"
+msgstr "注意：只有在“基本设置”中修改了slug样式时该功能才能使用。"
+
+#: al_setting.php:36
+msgid "Regenerate slugs"
+msgstr "重新生成slug"
+
+#: classes/al_option.php:22
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您无权访问本页面"
+
+#: classes/al_option.php:30
+msgid "General Settings"
+msgstr "基本设置"
+
+#: classes/al_option.php:31
+msgid "Redirect catalog"
+msgstr "跳转目录"
+
+#: classes/al_option.php:32
+msgid "Redirect HTTP code"
+msgstr "跳转类型"
+
+#: classes/al_option.php:33
+msgid "Length of slugs"
+msgstr "自动生产链接slug的长度"
+
+#: classes/al_option.php:34
+msgid "Component of slug"
+msgstr "自动生产链接slug的构成"
+
+#: classes/al_option.php:36
+msgid "Post Types"
+msgstr "需要转换的文章类型"
+
+#: classes/al_option.php:37
+msgid "Link properties"
+msgstr "链接属性"
+
+#: classes/al_option.php:38
+msgid "Turn on comment filter."
+msgstr "开启对评论中链接转换"
+
+#: classes/al_option.php:46
+msgid ""
+"Make sure it starts with a letter, ONLY contains letters, numbers, "
+"underscore and dash. The max. length is 12"
+msgstr ""
+"请确保以字母开头，且仅含有字母、数字、下划线、连接符，最大长度不超过12个"
+
+#: classes/al_option.php:66
+msgid "301 Moved Permanently"
+msgstr "301 永久性跳转"
+
+#: classes/al_option.php:68
+msgid "307 Temporary Redirect"
+msgstr "307 临时性跳转"
+
+#: classes/al_option.php:70
+msgid "Redirect using Javascript on a single page"
+msgstr "javascript中间页跳转"
+
+#: classes/al_option.php:75
+msgid "No less than 4 and no more than 12 characters"
+msgstr "长度最短不超过4位，最长不超过12位"
+
+#: classes/al_option.php:81
+msgid "Pure digits"
+msgstr "纯数字"
+
+#: classes/al_option.php:84
+msgid "Pure alphabets"
+msgstr "纯字母"
+
+#: classes/al_option.php:87
+msgid "Digits and alphabets"
+msgstr "字母与数字组合"
+
+#: classes/al_option.php:88
+msgid ""
+"Recommended setting is 4 digits and alphabets. If using PURE DIGITS please "
+"set the length no less than 6."
+msgstr "建议slug设置为4位字母与数字混合。单纯使用数字时长度最好设置为6位以上。"
+
+#: classes/al_option.php:110
+msgid ""
+"Select which type(s) of post you want to covert. Even though you select none "
+"of these, this plug-in is still working. Once you changed these options, you "
+"needn't regenerate slugs at all."
+msgstr ""
+"选择哪些“文章类型”中的链接需要转换。即使你一个都不选，插件仍然处于工作状态。"
+"请注意，无论何时你改变了这些选项，都不需要重新生成索引。"
+
+#: classes/al_option.php:119
+msgid ""
+"Set the property 'rel' of URLs. If you want to use the default property, "
+"please leave it blank."
+msgstr ""
+"设置URL的rel属性值。如果不想让anylink修改转换后链接中的rel属性，请将此项留空"
+
+#: classes/al_option.php:120
+msgid "Use single blank character to seperate its values."
+msgstr "每个值中间请有一个半角空格分隔开"
+
+#: classes/al_option.php:128
+msgid "Allow anylink to filter external url in comment."
+msgstr "转换评论中出现的外部链接"
+
+#: classes/al_option.php:131
+msgid "Please leave comments unfiltered."
+msgstr "对评论中的链接不转换"
+
+#: classes/al_option.php:134
+msgid "Filter link(s) in comment"
+msgstr "转换评论中的链接"
+
+#~ msgid "This page is not availabe at the moment!"
+#~ msgstr "当前页面不可用"
+
+#~ msgid "Redirecting ..."
+#~ msgstr "正在跳转……"
+
+#~ msgid "Page is redirecting. Please wait..."
+#~ msgstr "正在为您重新定向，请稍候……"
+
+#~ msgid ""
+#~ "anyLink is an external links management tool. It help you to covert all "
+#~ "the external links in your posts into internal links automatically. It "
+#~ "can prevent the website weight flow outside to others. It's absolutely "
+#~ "SEO friendly."
+#~ msgstr ""
+#~ "anyLink是一款外部链接管理工具。它可以帮你把网站中指向外部的链接以“内部链"
+#~ "接”的形式封装。这既可以规避搜索引擎对淘宝客类网站的识别，也可以防止网站权"
+#~ "重对外传递，有利于网站SEO。"
+
+#~ msgid "anyLink Settings"
+#~ msgstr "anylink设置"

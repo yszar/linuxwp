@@ -1,0 +1,158 @@
+# Copyright (C) 2014 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/anylink\n"
+"POT-Creation-Date: 2014-07-24 14:24:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: al_setting.php:5 classes/al_option.php:11
+msgid "anylink Settings"
+msgstr ""
+
+#: al_setting.php:11 al_setting.php:19
+msgid "Establish Index"
+msgstr ""
+
+#: al_setting.php:14
+msgid ""
+"For the first time after you running anylink, you need indexing ALL posts. "
+"It'll let you establish index for the posts already in your Wordpress. For "
+"the newly publish or update post, index is done automatically. And you "
+"needn't do anything."
+msgstr ""
+
+#: al_setting.php:23
+msgid ""
+"For the first time running, you need scan all the exist comments manually."
+msgstr ""
+
+#: al_setting.php:28
+msgid "Regenerate comment slugs"
+msgstr ""
+
+#: al_setting.php:31
+msgid ""
+"Allows you to generate slugs manually. Keep in mind that please do not "
+"regenerate slugs unless you changed slug settings. Search engines may think "
+"that you have modified your articles."
+msgstr ""
+
+#: al_setting.php:31
+msgid "Note: It won't work unless slug settings are changed"
+msgstr ""
+
+#: al_setting.php:36
+msgid "Regenerate slugs"
+msgstr ""
+
+#: classes/al_option.php:22
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: classes/al_option.php:30
+msgid "General Settings"
+msgstr ""
+
+#: classes/al_option.php:31
+msgid "Redirect catalog"
+msgstr ""
+
+#: classes/al_option.php:32
+msgid "Redirect HTTP code"
+msgstr ""
+
+#: classes/al_option.php:33
+msgid "Length of slugs"
+msgstr ""
+
+#: classes/al_option.php:34
+msgid "Component of slug"
+msgstr ""
+
+#: classes/al_option.php:36
+msgid "Post Types"
+msgstr ""
+
+#: classes/al_option.php:37
+msgid "Link properties"
+msgstr ""
+
+#: classes/al_option.php:38
+msgid "Turn on comment filter."
+msgstr ""
+
+#: classes/al_option.php:46
+msgid ""
+"Make sure it starts with a letter, ONLY contains letters, numbers, "
+"underscore and dash. The max. length is 12"
+msgstr ""
+
+#: classes/al_option.php:66
+msgid "301 Moved Permanently"
+msgstr ""
+
+#: classes/al_option.php:68
+msgid "307 Temporary Redirect"
+msgstr ""
+
+#: classes/al_option.php:70
+msgid "Redirect using Javascript on a single page"
+msgstr ""
+
+#: classes/al_option.php:75
+msgid "No less than 4 and no more than 12 characters"
+msgstr ""
+
+#: classes/al_option.php:81
+msgid "Pure digits"
+msgstr ""
+
+#: classes/al_option.php:84
+msgid "Pure alphabets"
+msgstr ""
+
+#: classes/al_option.php:87
+msgid "Digits and alphabets"
+msgstr ""
+
+#: classes/al_option.php:88
+msgid ""
+"Recommended setting is 4 digits and alphabets. If using PURE DIGITS please "
+"set the length no less than 6."
+msgstr ""
+
+#: classes/al_option.php:110
+msgid ""
+"Select which type(s) of post you want to covert. Even though you select none "
+"of these, this plug-in is still working. Once you changed these options, you "
+"needn't regenerate slugs at all."
+msgstr ""
+
+#: classes/al_option.php:119
+msgid ""
+"Set the property 'rel' of URLs. If you want to use the default property, "
+"please leave it blank."
+msgstr ""
+
+#: classes/al_option.php:120
+msgid "Use single blank character to seperate its values."
+msgstr ""
+
+#: classes/al_option.php:128
+msgid "Allow anylink to filter external url in comment."
+msgstr ""
+
+#: classes/al_option.php:131
+msgid "Please leave comments unfiltered."
+msgstr ""
+
+#: classes/al_option.php:134
+msgid "Filter link(s) in comment"
+msgstr ""

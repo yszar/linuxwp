@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-15 16:48+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: 莳子 <shine.wangrs@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: K:\\workspace_mobile\\codante\\wp-content\\plugins\\wp-content-index\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-content-index.php:19
+#: wp-content-index.php:26
+#: wp-content-index.php:433
+#: wp-content-index.php:486
+#: wp-content-index.php:490
+#: wp-content-index.php:491
+msgid "Content Index"
+msgstr "文章内索引"
+
+#: wp-content-index.php:34
+msgid "Save succeed"
+msgstr "保存成功"
+
+#: wp-content-index.php:54
+msgid "Default status"
+msgstr "默认状态"
+
+#: wp-content-index.php:56
+msgid "Enabled"
+msgstr "开启"
+
+#: wp-content-index.php:56
+msgid "All articles/pages valid, Individually shielded."
+msgstr "在所有文章/页面中启用，可单独屏蔽。"
+
+#: wp-content-index.php:57
+msgid "Disable"
+msgstr "关闭"
+
+#: wp-content-index.php:57
+msgid "All articles/pages invalid, Individually enabled."
+msgstr "在所有文章/页面中禁用，可单独启用。"
+
+#: wp-content-index.php:58
+msgid "* Using two sets of configuration, will not interfere with each other.(Do not frequently change this option)"
+msgstr "* 使用两套配置，不会相互干扰。(不要频繁更改此选项)"
+
+#: wp-content-index.php:62
+msgid "DB cache"
+msgstr "数据库缓存"
+
+#: wp-content-index.php:64
+#: wp-content-index.php:91
+#: wp-content-index.php:97
+#: wp-content-index.php:103
+#: wp-content-index.php:109
+msgid "Enable"
+msgstr "开启"
+
+#: wp-content-index.php:68
+msgid "Position"
+msgstr "位置"
+
+#: wp-content-index.php:70
+msgid "Left"
+msgstr "居左"
+
+#: wp-content-index.php:71
+msgid "Top"
+msgstr "顶部"
+
+#: wp-content-index.php:72
+msgid "Right"
+msgstr "居右"
+
+#: wp-content-index.php:75
+msgid "List number"
+msgstr "列表编号"
+
+#: wp-content-index.php:77
+msgid "Add a serial number in the index entry."
+msgstr "为索引添加编号"
+
+#: wp-content-index.php:78
+msgid "Add a serial number in the heading of the article."
+msgstr "为正文中heading添加编号"
+
+#: wp-content-index.php:82
+msgid "Title"
+msgstr "标题"
+
+#: wp-content-index.php:84
+msgid "Enable title."
+msgstr "启用标题"
+
+#: wp-content-index.php:85
+msgid "Custom for title."
+msgstr "自定义标题"
+
+#: wp-content-index.php:89
+msgid "Show Levels"
+msgstr "层级关系"
+
+#: wp-content-index.php:95
+msgid "Show Hide button"
+msgstr "隐藏按钮"
+
+#: wp-content-index.php:101
+msgid "Show empty"
+msgstr "显示无内容项"
+
+#: wp-content-index.php:107
+msgid "Show mirage"
+msgstr "显示索引(空)项"
+
+#: wp-content-index.php:113
+msgid "Excerpt"
+msgstr "摘要相关"
+
+#: wp-content-index.php:115
+msgid "Push excerpt into content."
+msgstr "在正文的开头自动添加摘要"
+
+#: wp-content-index.php:116
+msgid "Fixed excerpt in content index."
+msgstr "将摘要纳入索引范围内"
+
+#: wp-content-index.php:123
+msgid "Save"
+msgstr "保存"
+
+#: wp-content-index.php:132
+msgid "About the plugin: "
+msgstr "关于本插件:"
+
+#: wp-content-index.php:210
+msgid "Description"
+msgstr "摘要"
+
+#: wp-content-index.php:240
+msgid "Index"
+msgstr "索引"
+
+#: wp-content-index.php:438
+#: wp-content-index.php:441
+msgid "hide"
+msgstr "隐藏"
+
+#: wp-content-index.php:441
+msgid "show"
+msgstr "显示"
+
+#: wp-content-index.php:510
+msgid "Default state for all enabled"
+msgstr "默认状态为全部开启"
+
+#: wp-content-index.php:511
+msgid "Disabled in this article/page"
+msgstr "在此文章/页面中禁用"
+
+#: wp-content-index.php:516
+msgid "Default state for all disabled"
+msgstr "默认状态为全部禁用"
+
+#: wp-content-index.php:517
+msgid "Enabled in this article/page"
+msgstr "在此文章/页面中开启"
+
+#~ msgid "Contents"
+#~ msgstr "内容索引"
+

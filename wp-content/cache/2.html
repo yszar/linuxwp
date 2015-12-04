@@ -1,0 +1,1255 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!-- 引入页面描述和关键字模板 -->
+<title>LinuxWP - linux和wordpress学习</title>
+<meta name="description" content="LinuxWP整合并分享各种Linux以及WordPress技术性内容，方便自己，方便大家。同时收集国内外各种优秀的WordPress主题、WordPress插件、WordPress教程等内容，整理归档后将其汉化并分享给大家！" />
+<meta name="keywords" content="LinuxWP,WordPress,WordPress实用技巧,WordPress主题,WordPress插件,互联网大事件,资源分享,IT视界,Linux,Linux技术,WordPress汉化主题" />
+<!-- 网站图标 -->
+<link rel="shortcut icon" href="favicon.ico" />
+<!-- 禁止浏览器初始缩放 -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<!-- 引入主题样式表 -->
+<link rel="stylesheet" type="text/css" href="http://img.linuxwp.com/wp-content/themes/tinection/style.css"  />
+<!-- 引入主题响应式样式表-->
+<link rel="stylesheet" type="text/css" href="http://img.linuxwp.com/wp-content/themes/tinection/includes/css/responsive.css"  />
+<!-- 引入自定义样式表 -->
+<link rel="stylesheet" type="text/css" href="http://www.linuxwp.com/wp-content/themes/tinection/includes/css/customcss.php"  />
+<!-- 引入字体样式表-->
+<link rel="stylesheet" type="text/css" href="http://img.linuxwp.com/wp-content/themes/tinection/fonts/font-awesome/font-awesome.css"  media="all" />
+<link rel="alternate" type="application/rss+xml" title="LinuxWP RSS Feed" href="http://www.linuxwp.com/feed" />
+<link rel="alternate" type="application/atom+xml" title="LinuxWP Atom Feed" href="http://www.linuxwp.com/feed/atom" />
+<link rel="pingback" href="http://www.linuxwp.com/xmlrpc.php" />
+<!-- 引入用户自定义代码 -->
+<meta property="wb:webmaster" content="45cf1e9537bff166" />
+ <meta property="qc:admins" content="5271054477641650706375" /> <link rel='stylesheet' id='crayon-css'  href='http://img.linuxwp.com/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=1449074986' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-theme-classic-css'  href='http://img.linuxwp.com/wp-content/plugins/crayon-syntax-highlighter/themes/classic/classic.css?ver=1449074986' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-font-consolas-css'  href='http://img.linuxwp.com/wp-content/plugins/crayon-syntax-highlighter/fonts/consolas.css?ver=1449074986' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://img.linuxwp.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=1449074986' type='text/css' media='all' />
+<link rel='stylesheet' id='nm-css'  href='http://img.linuxwp.com/wp-content/plugins/netease-music/static/css/style.css?ver=1449074986' type='text/css' media='all' />
+<script type='text/javascript' src='http://lib.sinaapp.com/js/jquery/1.10.2/jquery-1.10.2.min.js?ver=1449074986'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var quicktagsL10n = {"closeAllOpenTags":"\u5173\u95ed\u6240\u6709\u6253\u5f00\u7684\u6807\u7b7e","closeTags":"\u5173\u95ed\u6807\u7b7e","enterURL":"\u8f93\u5165URL","enterImageURL":"\u8f93\u5165\u56fe\u50cfURL","enterImageDescription":"\u4e3a\u56fe\u50cf\u8f93\u5165\u63cf\u8ff0","textdirection":"\u6587\u672c\u65b9\u5411","toggleTextdirection":"\u5207\u6362\u7f16\u8f91\u5668\u6587\u672c\u4e66\u5199\u65b9\u5411","dfw":"\u514d\u6253\u6270\u5199\u4f5c\u6a21\u5f0f","strong":"\u7c97\u4f53","strongClose":"\u5173\u95ed\u7c97\u4f53\u6807\u7b7e","em":"\u659c\u4f53","emClose":"\u5173\u95ed\u659c\u4f53\u6807\u7b7e","link":"\u63d2\u5165\u94fe\u63a5","blockquote":"\u5757\u5f15\u7528","blockquoteClose":"\u5173\u95ed\u5757\u5f15\u7528\u6807\u7b7e","del":"\u5220\u9664\u7684\u6587\u5b57\uff08\u5220\u9664\u7ebf\uff09","delClose":"\u5173\u95ed\u5220\u9664\u7ebf\u6807\u7b7e","ins":"\u63d2\u5165\u7684\u6587\u5b57","insClose":"\u5173\u95ed\u63d2\u5165\u7684\u6587\u5b57\u6807\u7b7e","image":"\u63d2\u5165\u56fe\u50cf","ul":"\u9879\u76ee\u7b26\u53f7\u5217\u8868","ulClose":"\u5173\u95ed\u9879\u76ee\u7b26\u53f7\u5217\u8868\u6807\u7b7e","ol":"\u7f16\u53f7\u5217\u8868","olClose":"\u5173\u95ed\u7f16\u53f7\u5217\u8868\u6807\u7b7e","li":"\u5217\u8868\u9879\u76ee","liClose":"\u5173\u95ed\u5217\u8868\u9879\u76ee\u6807\u7b7e","code":"\u4ee3\u7801","codeClose":"\u5173\u95ed\u4ee3\u7801\u6807\u7b7e","more":"\u63d2\u5165\u201cMore\u201d\u6807\u7b7e"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://img.linuxwp.com/wp-includes/js/quicktags.min.js?ver=1449074986'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"2.7.1","is_admin":"0","ajaxurl":"http:\/\/www.linuxwp.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"\u4f7f\u7528 %s \u590d\u5236\uff0c\u4f7f\u7528 %s \u7c98\u8d34\u3002","minimize":"\u70b9\u51fb\u5c55\u5f00\u4ee3\u7801"};
+var CrayonTagEditorSettings = {"home_url":"http:\/\/www.linuxwp.com","css":"crayon-te","css_selected":"crayon-selected","code_css":"#crayon-code","url_css":"#crayon-url","url_info_css":"#crayon-te-url-info","lang_css":"#crayon-lang","title_css":"#crayon-title","mark_css":"#crayon-mark","range_css":"#crayon-range","inline_css":"crayon-inline","inline_hide_css":"crayon-hide-inline","inline_hide_only_css":"crayon-hide-inline-only","hl_css":"#crayon-highlight","switch_html":"#content-html","switch_tmce":"#content-tmce","tinymce_button_generic":".mce-btn","tinymce_button":"a.mce_crayon_tinymce,.mce-i-crayon_tinymce","tinymce_button_unique":"mce_crayon_tinymce","tinymce_highlight":"mce-active","submit_css":"#crayon-te-ok","cancel_css":"#crayon-te-cancel","content_css":"#crayon-te-content","dialog_title_css":"#crayon-te-title","submit_wrapper_css":"#crayon-te-submit-wrapper","data_value":"data-value","attr_sep":":","css_sep":"_","fallback_lang":"php","add_text":"Add Code","edit_text":"Edit Code","quicktag_text":"crayon","submit_add":"\u63d2\u5165","submit_edit":"\u4fdd\u5b58","bar":"#crayon-te-bar","bar_content":"#crayon-te-bar-content","extensions":{"scpt":"applescript","applescript":"applescript","swf":"as","fla":"as","cs":"c#","h":"c++","hh":"c++","hpp":"c++","hxx":"c++","h++":"c++","cc":"c++","cpp":"c++","cxx":"c++","c++":"c++","pas":"delphi","java":"java","class":"java","jar":"java","mv":"miva","mvc":"miva","mvt":"miva","m":"objc","mm":"objc","psc":"papyrus","pl":"perl","py":"python","pyw":"python","pyc":"python","pyo":"python","pyd":"python","rb":"ruby","rbx":"ruby","rhtml":"ruby","vbs":"vb"}};
+var CrayonSyntaxSettings = {"version":"2.7.1","is_admin":"0","ajaxurl":"http:\/\/www.linuxwp.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"\u4f7f\u7528 %s \u590d\u5236\uff0c\u4f7f\u7528 %s \u7c98\u8d34\u3002","minimize":"\u70b9\u51fb\u5c55\u5f00\u4ee3\u7801"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://img.linuxwp.com/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.te.min.js?ver=1449074986'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.linuxwp.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.linuxwp.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="icon" href="http://img.linuxwp.com/wp-content/uploads/2015/10/cropped-153281061286423960-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="http://img.linuxwp.com/wp-content/uploads/2015/10/cropped-153281061286423960-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://img.linuxwp.com/wp-content/uploads/2015/10/cropped-153281061286423960-180x180.jpg">
+<meta name="msapplication-TileImage" content="http://img.linuxwp.com/wp-content/uploads/2015/10/cropped-153281061286423960-270x270.jpg">
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+<script src="http://img.linuxwp.com/wp-content/themes/tinection/includes/js/html5.js"></script>
+<script src="http://img.linuxwp.com/wp-content/themes/tinection/includes/js/css3-mediaqueries.js"></script>
+<script src="http://img.linuxwp.com/wp-content/themes/tinection/includes/js/PIE_IE678.js"></script>
+<link rel="stylesheet" type="text/css" href="http://img.linuxwp.com/wp-content/themes/tinection/includes/css/iefix.css"  media="all" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="http://img.linuxwp.com/wp-content/themes/tinection/fonts/font-awesome/font-awesome-ie7.min.css"  media="all" />
+<![endif]-->
+<!--[if IE 6]>
+<script src="http://img.linuxwp.com/wp-content/themes/tinection/includes/js/kill-IE6.js"></script>
+<![endif]-->
+</head>
+<body id="wrap" class="home blog" style="background:#fff; ">
+<!-- Nav -->
+<!-- Moblie nav-->
+<div id="body-container">
+<aside id="navmenu-mobile">
+<div id="navmenu-mobile-wraper">
+	<div class="mobile-login-field">
+	<div id="login-box-mobile">
+	<div class="login-box-mobile-form">
+		<button data-sign="0" class="btn btn-primary user-login">登录</button>
+		<button data-sign="1" class="btn btn-success user-reg">注册</button>	</div>
+</div>	</div>
+	<ul id="menu-mobile" class="menu-mobile"><li id="menu-item-69" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-69"><a href="http://www.linuxwp.com/">首页</a></li>
+<li id="menu-item-300" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-300"><a href="http://www.linuxwp.com/linux">Linux</a></li>
+<li id="menu-item-302" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-302"><a href="http://www.linuxwp.com/wordpress">WordPress</a>
+<ul class="sub-menu">
+	<li id="menu-item-306" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306"><a href="http://www.linuxwp.com/wordpress/wordpress-tutorial">WordPress教程</a></li>
+	<li id="menu-item-304" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-304"><a href="http://www.linuxwp.com/wordpress/wordpress-development">WordPress开发</a></li>
+	<li id="menu-item-303" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-303"><a href="http://www.linuxwp.com/wordpress/wordpress-theme">WordPress主题</a></li>
+	<li id="menu-item-305" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-305"><a href="http://www.linuxwp.com/wordpress/wordpress-plugin">WordPress插件</a></li>
+</ul>
+</li>
+<li id="menu-item-301" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-301"><a href="http://www.linuxwp.com/php">PHP</a></li>
+<li id="menu-item-60" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-60"><a href="http://www.linuxwp.com/internet">互联网</a>
+<ul class="sub-menu">
+	<li id="menu-item-309" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-309"><a href="http://www.linuxwp.com/internet/current-events">时事关注</a></li>
+	<li id="menu-item-308" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-308"><a href="http://www.linuxwp.com/internet/the-internet-big-events">互联网大事件</a></li>
+</ul>
+</li>
+</ul></div>
+</aside>
+<!-- /.Moblie nav -->
+<section id="content-container">
+<header class="header-wrap" id="nav-scroll">
+	<div class="nav-wrap">
+ 						<div class="logo-title">
+				<a href="http://www.linuxwp.com" alt="LinuxWP" title="LinuxWP">
+					LinuxWP				</a>
+			</div>
+						<!-- Toggle menu -->
+			<div class="toggle-menu">
+				<i class="fa fa-bars"></i>
+			</div>	
+			<!-- /.Toggle menu -->
+			<!-- Search button -->
+			<div class="search-btn-click">
+				<i class="fa fa-search"></i>
+			</div>	
+			<!-- /.Search button -->
+			<!-- Login status -->
+						<div id="login-reg">
+			<span data-sign="0" id="user-login" class="user-login ie_pie "> 登录</span>
+			<span data-sign="1" id="user-reg" class="user-reg ie_pie">注册</span>		</div>
+			<!-- /.Login status -->
+			<!-- Focus us -->
+			<div id="focus-us">
+关注我们<div id="focus-slide" class="ie_pie">
+	<div class="focus-title">关注我们</div>
+	<p class="focus-content">
+		<a href="http://weibo.com/yszar" target="_blank" class="sinaweibo"><span><i class="fa fa-weibo"></i>新浪微博</span></a>
+		<a href="http://t.qq.com/56312233" target="_blank" class="sinaweibo"><span><i class="fa fa-tencent-weibo"></i>腾讯微博</span></a>
+	</p>
+	<div class="focus-title">联系我们</div>
+	<p class="focus-content" style="line-height: 20px;margin-bottom: 10px;">
+		<a href="http://wpa.qq.com/msgrd?v=3&uin=56312233&site=qq&menu=yes" target="_blank" class="qq"><span><i class="fa fa-qq"></i>QQ</span></a>
+		<a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=QTgyOyAzATcoMW8wMG8iLiw" target="_blank"><span><i class="fa fa-envelope"></i>发送邮件</span></a>
+		<!-- 可删除 -->
+				<!-- 删除截止 -->
+	</p>
+	<div class="focus-title">订阅本站<i class="fa fa-rss"></i></div>
+	<p class="focus-content">
+		<input type="text" name="rss" class="rss" value="http://www.linuxwp.com/feed" />
+	</p>
+	<p class="focus-content">订阅到： <a rel="external nofollow" target="_blank" href="http://xianguo.com/subscribe?url=http://www.linuxwp.com/feed">鲜果</a>
+		<a rel="external nofollow" target="_blank" href="http://reader.youdao.com/b.do?keyfrom=bookmarklet&amp;url=http://www.linuxwp.com/feed">有道</a>
+		<a rel="external nofollow" target="_blank" href="http://feedly.com/index.html#subscription%2Ffeed%2Fhttp://www.linuxwp.com/feed">Feedly</a></p>
+	<form action="http://list.qq.com/cgi-bin/qf_compose_send" target="_blank" method="post">
+		<input type="hidden" name="t" value="qf_booked_feedback" />
+		<input type="hidden" name="id" value="38c32a0083496c8c74265b09a0a7e2af923171f3704f4a7b" />
+		<input type="email" name="to" id="to" class="focus-email" placeholder="输入邮箱,订阅本站" required />
+		<input type="submit" class="focus-email-submit" value="订阅" />
+	</form>
+
+</div>
+</div>			<!-- /.Focus us -->			
+			<!-- Menu Items Begin -->
+			<nav id="pri-nav" class="site-navigation pri-nav " role="navigation">
+				<div class="menu-%e8%8f%9c%e5%8d%95-container"><ul id="menu-%e8%8f%9c%e5%8d%95" class="nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-69"><a href="http://www.linuxwp.com/">首页</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-300"><a href="http://www.linuxwp.com/linux">Linux</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-302"><a href="http://www.linuxwp.com/wordpress">WordPress</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306"><a href="http://www.linuxwp.com/wordpress/wordpress-tutorial">WordPress教程</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-304"><a href="http://www.linuxwp.com/wordpress/wordpress-development">WordPress开发</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-303"><a href="http://www.linuxwp.com/wordpress/wordpress-theme">WordPress主题</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-305"><a href="http://www.linuxwp.com/wordpress/wordpress-plugin">WordPress插件</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-301"><a href="http://www.linuxwp.com/php">PHP</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-60"><a href="http://www.linuxwp.com/internet">互联网</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-309"><a href="http://www.linuxwp.com/internet/current-events">时事关注</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-308"><a href="http://www.linuxwp.com/internet/the-internet-big-events">互联网大事件</a></li>
+</ul>
+</li>
+</ul></div>			</nav>
+			<!-- Menu Items End -->
+	</div>
+	<div class="clr"></div>
+	<div class="site_loading"></div>
+	<!-- Search Form -->
+	<div class="header-search-slide" style="display: none;">
+		<form method="get" id="searchform-slide" class="searchform" action="http://www.linuxwp.com" role="search">
+			<input type="search" class="field" name="s" value="" placeholder="输入关键词并回车" required>
+			<button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+		</form>
+	</div>
+	<!-- Search Form End -->
+</header>
+<div class="hidefixnav"></div>
+<!-- End Nav -->
+<script type="text/javascript">
+	$('.site_loading').animate({'width':'33%'},50);  //第一个进度节点
+</script><!-- Main Wrap -->
+<div id="main-wrap">
+	<div id="sitenews-wrap" class="container"></div>
+	<!-- Header Banner -->
+<!-- /.Header Banner -->
+	<!-- CMS Layout -->
+	<div class="container two-col-container cms-bar">
+<div id="main-wrap-left">
+<!-- Stickys -->
+<!-- /.Stickys -->	<section class="catlist-131 catlist clr">
+		<div class="catlist-container clr">
+			<h2 class="home-heading clr">
+				<span class="heading-text">
+					Linux				</span>
+				<a href="http://www.linuxwp.com/linux">+ 更多</a>
+			</h2>
+		<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">4</span>
+								<a href="http://www.linuxwp.com/cloudfs-a-one-click-installation-guide.html" title="cloudfs 一键式安装指导书" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/30.jpg?imageView2/1/w/375/h/250/q/100" alt="cloudfs 一键式安装指导书">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/cloudfs-a-one-click-installation-guide.html" title="cloudfs 一键式安装指导书">cloudfs 一键式安装指导书</a></h3>
+	<p>
+		1、安装cloudfs依赖库： Ubuntu版本： [crayon-5660722c84b16871331043/] CentOS版本： [crayon-5660722c84b1f234797156/] 2、到CloudFS的官方网站下载对应的CloudFS安装包： CloudFS Downloads 3、将包上传到目的服务器，解压安装包： [crayon-5660722c84b254862701<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/cloudfs-a-one-click-installation-guide.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/cloudfs4oss-1-0-1-20150527.html" title="cloudfs4oss-1.0.1 发布（20150527）" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/37.jpg?imageView2/1/w/375/h/250/q/100" alt="cloudfs4oss-1.0.1 发布（20150527）">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/cloudfs4oss-1-0-1-20150527.html" title="cloudfs4oss-1.0.1 发布（20150527）">cloudfs4oss-1.0.1 发布（20150527）</a></h3>
+	<p>
+		cloudfs4oss 1.0.1 版本发布 产品更新 功能改进点： 大量文件下的启动速度改进，当文件达到100万个时，之前版本启动需要30秒-1分钟，新的方案做到了3秒内完成启动； 增加一键安装脚本，降低安装复杂度； 之前的版本在使用multi-part上传时，最大part数量只支持1000个，新的方案做到支持10000个，提高10倍； 问题修改： 解决了在某些场景下的内存泄露、线程死锁问题；<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/cloudfs4oss-1-0-1-20150527.html"></a>	</p>
+</article>
+</span>
+<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/how-to-find-the-file-contents-in-linux.html" title="Linux里如何查找文件内容" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/7.jpg?imageView2/1/w/375/h/250/q/100" alt="Linux里如何查找文件内容">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/how-to-find-the-file-contents-in-linux.html" title="Linux里如何查找文件内容">Linux里如何查找文件内容</a></h3>
+	<p>
+		Linux查找文件内容的常用命令方法。 从文件内容查找匹配指定字符串的行： $ grep "被查找的字符串" 文件名 例子：在当前目录里第一级文件夹中寻找包含指定字符串的.in文件 [crayon-5660722c85267902546422/] 从文件内容查找与正则表达式匹配的行： $ grep –e “正则表达式” 文件名 查找时不区分大小写： $ grep –i "被查找的字符串" 文件名<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/how-to-find-the-file-contents-in-linux.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/mysql-root-password-to-forget-the-solution-linux.html" title="linux下mysql的root密码忘记解决方法" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/32.jpg?imageView2/1/w/375/h/250/q/100" alt="linux下mysql的root密码忘记解决方法">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/mysql-root-password-to-forget-the-solution-linux.html" title="linux下mysql的root密码忘记解决方法">linux下mysql的root密码忘记解决方法</a></h3>
+	<p>
+		1．首先确认服务器出于安全的状态，也就是没有人能够任意地连接MySQL数据库。 因为在重新设置MySQL的root密码的期间，MySQL数据库完全出于没有密码保护的 状态下，其他的用户也可以任意地登录和修改MySQL的信息。可以采用将MySQL对 外的端口封闭，并且停止Apache以及所有的用户进程的方法实现服务器的准安全 状态。最安全的状态是到服务器的Console上面操作，并且拔掉网线。 2．<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/mysql-root-password-to-forget-the-solution-linux.html"></a>	</p>
+</article>
+</span>
+<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">3</span>
+								<a href="http://www.linuxwp.com/%e7%99%bb%e5%bd%95phpmyadmin%e6%8f%90%e7%a4%ba-1045-%e6%97%a0%e6%b3%95%e7%99%bb%e5%bd%95-mysql-%e6%9c%8d%e5%8a%a1%e5%99%a8.html" title="登录phpmyadmin提示: #1045 无法登录 MySQL 服务器" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://oss.linuxwp.com/wp-content/uploads/2015/11/phpmyadmin_error.jpg?imageView2/1/w/375/h/250/q/100" alt="登录phpmyadmin提示: #1045 无法登录 MySQL 服务器">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/%e7%99%bb%e5%bd%95phpmyadmin%e6%8f%90%e7%a4%ba-1045-%e6%97%a0%e6%b3%95%e7%99%bb%e5%bd%95-mysql-%e6%9c%8d%e5%8a%a1%e5%99%a8.html" title="登录phpmyadmin提示: #1045 无法登录 MySQL 服务器">登录phpmyadmin提示: #1045 无法登录 MySQL 服务器</a></h3>
+	<p>
+		打开phpmyadmin，进行登录，出现以下问题，提示：#1045 无法登录 MySQL 服务器 或许出现以下错误情况：phpmyadmin:#1045 无法登录 MySQL 服务器。Access denied for user ‘root’@’localhost’ (using password: YES) 问题原因：这有可能是由于前面设置mysql密码没有成功，所以导致了我们使用设置的mysq<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/%e7%99%bb%e5%bd%95phpmyadmin%e6%8f%90%e7%a4%ba-1045-%e6%97%a0%e6%b3%95%e7%99%bb%e5%bd%95-mysql-%e6%9c%8d%e5%8a%a1%e5%99%a8.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">1</span>
+								<a href="http://www.linuxwp.com/zip-after-extracting-the-file-names-in-ubuntu-code.html" title="ubuntu14.04中zip解压后文件名乱码" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/15.jpg?imageView2/1/w/375/h/250/q/100" alt="ubuntu14.04中zip解压后文件名乱码">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/zip-after-extracting-the-file-names-in-ubuntu-code.html" title="ubuntu14.04中zip解压后文件名乱码">ubuntu14.04中zip解压后文件名乱码</a></h3>
+	<p>
+		这个主要是因为zip文件对文件名的编码默认为当前环境的locale，如在windows下压缩的zip文件，在linux下其中的中文名便会乱码。 这是zip格式的缺陷，所以目前并没有很完美的解决办法。当前的办法有如下两种： 使用upzip命令的时候加个参数 [crayon-5660722c8593a956915569/] &nbsp; 用python写一个脚本来解压 [crayon-5660722c<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/zip-after-extracting-the-file-names-in-ubuntu-code.html"></a>	</p>
+</article>
+</span>
+<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/after-installing-ubuntu-15-10-to-do.html" title="安装Ubuntu 15.10后要做的事" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/37.jpg?imageView2/1/w/375/h/250/q/100" alt="安装Ubuntu 15.10后要做的事">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/after-installing-ubuntu-15-10-to-do.html" title="安装Ubuntu 15.10后要做的事">安装Ubuntu 15.10后要做的事</a></h3>
+	<p>
+		Ubuntu 15.10发布了，带来了很多新特性，同样也依然带着很多不习惯的东西，所以装完系统后还要进行一系列的优化。 1.删除libreoffice libreoffice虽然是开源的，但是Java写出来的office执行效率实在不敢恭维，装完系统后果断删掉 [crayon-5660722c92071226140113/] &nbsp; 2.删除Amazon的链接 [crayon-5660722<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/after-installing-ubuntu-15-10-to-do.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">1</span>
+								<a href="http://www.linuxwp.com/15-things-to-do-after-installing-the-ubuntu15-04-desktop.html" title="安装完Ubuntu 15.04桌面后要做的15件事" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="https://dn-linuxcn.qbox.me/data/attachment/album/201506/05/204024w3wb117qbkx1vc4v.jpg?imageView2/1/w/375/h/250/q/100" alt="安装完Ubuntu 15.04桌面后要做的15件事">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/15-things-to-do-after-installing-the-ubuntu15-04-desktop.html" title="安装完Ubuntu 15.04桌面后要做的15件事">安装完Ubuntu 15.04桌面后要做的15件事</a></h3>
+	<p>
+		本教程适用于在自己的电脑上安装了　Ubuntu 15.04 “Vivid Vervet” 桌面的新手，这里会告诉你安装之后应该做哪些事情，来自定义你的系统和安装一些基本程序作为日常使用。 安装完Ubuntu 15.04桌面后要做的15件事 1. 启用Ubuntu额外软件库并更新系统 在刚装好Ubuntu之后你应该要关心的第一件事是启用Canonical的官方合作伙伴提供的Ubuntu额外软件库，并<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/15-things-to-do-after-installing-the-ubuntu15-04-desktop.html"></a>	</p>
+</article>
+</span>
+	
+		</div>
+	</section>
+						<div id="loopad" class="container banner">
+						</div>
+				<section class="catlist-132 catlist clr">
+		<div class="catlist-container clr">
+			<h2 class="home-heading clr">
+				<span class="heading-text">
+					WordPress				</span>
+				<a href="http://www.linuxwp.com/wordpress">+ 更多</a>
+			</h2>
+		<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">3</span>
+								<a href="http://www.linuxwp.com/for-the-navigation-menu-to-add-personality-icon-fonts.html" title="为导航菜单添加个性图标字体" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/uploads/2015/12/20151202012146120.jpg?imageView2/1/w/375/h/250/q/100" alt="为导航菜单添加个性图标字体">
+			<span><i class="fa fa-expand"></i></span>
+			</div>
+		</a>
+		<h3><a href="http://www.linuxwp.com/for-the-navigation-menu-to-add-personality-icon-fonts.html" title="为导航菜单添加个性图标字体">为导航菜单添加个性图标字体</a></h3>
+	<p>
+		目前图标字体非常流行，图标字体使用简单，与图片格式的小图标相比，支持视网膜显示，可以无限放大。特别是一些响应式设计的主题模板，都会或多或少使用图标字体，除了主题集成的图标字体，我们还可以单独为导航菜单上的项目也配上个性化的图标字体。 具体方法： 一、WP后台--插件--安装插件页面搜索：Font Awesome 4 Menus，下载安装并启用。 二、WP后台---外观---菜单，进入菜单设置页面，<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/for-the-navigation-menu-to-add-personality-icon-fonts.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">64</span>
+								<a href="http://www.linuxwp.com/name-and-id-for-wordpress-all-categories.html" title="WordPress代码 之 获取WordPress所有分类名字和ID" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/uploads/2015/12/20151202004509115.jpg?imageView2/1/w/375/h/250/q/100" alt="WordPress代码 之 获取WordPress所有分类名字和ID">
+			<span><i class="fa fa-expand"></i></span>
+			</div>
+		</a>
+		<h3><a href="http://www.linuxwp.com/name-and-id-for-wordpress-all-categories.html" title="WordPress代码 之 获取WordPress所有分类名字和ID">WordPress代码 之 获取WordPress所有分类名字和ID</a></h3>
+	<p>
+		某些时候，我们需要获取WordPress 所有分类的名字和ID，我的主题设置界面，就使用了这个功能，如下图 实现的方法很简单，一起来操作吧 在主题的 functions.php 最后一个 ?&gt; 前添加下面的代码 [crayon-5660722c8421c846294420/] 在需要显示的地方添加下面的调用代码即可 [crayon-5660722c84229147422233/] 是不是很简<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/name-and-id-for-wordpress-all-categories.html"></a>	</p>
+</article>
+</span>
+<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">1</span>
+								<a href="http://www.linuxwp.com/wordpress-database-and-table-structure.html" title="WordPress数据库及各表结构" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/21.jpg?imageView2/1/w/375/h/250/q/100" alt="WordPress数据库及各表结构">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/wordpress-database-and-table-structure.html" title="WordPress数据库及各表结构">WordPress数据库及各表结构</a></h3>
+	<p>
+		WordPress使用MySQL数据库。作为一个开发者，我们有必要掌握WordPress数据库的基本构造，并在自己的插件或主题中使用他们。 截至WordPress3.0，WordPress一共有以下11个表。这里加上了默认的表前缀 wp_ 。 wp_commentmeta：存储评论的元数据 wp_comments：存储评论 wp_links：存储友情链接（Blogroll） wp_options：<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/wordpress-database-and-table-structure.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/wordpress-to-improve-the-relevance-of-search-results.html" title="WordPress提高搜索结果的相关性(准确度)" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/8.jpg?imageView2/1/w/375/h/250/q/100" alt="WordPress提高搜索结果的相关性(准确度)">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/wordpress-to-improve-the-relevance-of-search-results.html" title="WordPress提高搜索结果的相关性(准确度)">WordPress提高搜索结果的相关性(准确度)</a></h3>
+	<p>
+		WordPress本身的搜索结果是按照发布时间排序的，这样的搜索结果的相关性并不强，应该让搜索结果按照内容相关性排序，而不是按照时间或者 ID，所以我们可以在当前主题的 functions.php 添加如下代码来增强 WordPress 搜索的相关性： [crayon-5660722c85c9e809533032/] &nbsp; 上面的排序方法很简单：当文章标题含有关键字的时候给予权重值 2，内<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/wordpress-to-improve-the-relevance-of-search-results.html"></a>	</p>
+</article>
+</span>
+<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/edit-the-functions-php-file-of-the-wordpress-theme.html" title="编辑WordPress主题的 functions.php 文件的注意事项" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/10.jpg?imageView2/1/w/375/h/250/q/100" alt="编辑WordPress主题的 functions.php 文件的注意事项">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/edit-the-functions-php-file-of-the-wordpress-theme.html" title="编辑WordPress主题的 functions.php 文件的注意事项">编辑WordPress主题的 functions.php 文件的注意事项</a></h3>
+	<p>
+		很多教程都提到“将代码添加到主题的 functions.php 文件”，但总有些新手朋友总是反馈说：如何添加？添加后出错？添加后网站就不能访问啦……所以今天就来说说编辑 functions.php 文件应该注意哪些问题。 functions.php 有什么用 functions.php 是 WordPress 预留的功能函数文件，专门用于添加各种自定义函数代码。现在的WordPress主题的功能越<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/edit-the-functions-php-file-of-the-wordpress-theme.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">1</span>
+								<a href="http://www.linuxwp.com/the-wordpress-font-from-the-fonts-google-open-sans-for-360-cdn.html" title="将WordPress后台的open-sans字体加载源从Google Fonts换为360 CDN" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/14.jpg?imageView2/1/w/375/h/250/q/100" alt="将WordPress后台的open-sans字体加载源从Google Fonts换为360 CDN">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/the-wordpress-font-from-the-fonts-google-open-sans-for-360-cdn.html" title="将WordPress后台的open-sans字体加载源从Google Fonts换为360 CDN">将WordPress后台的open-sans字体加载源从Google Fonts换为360 CDN</a></h3>
+	<p>
+		[crayon-5660722ca9369878528518/] 将上面的代码添加到主题的 functions.php 即可在后台和登录界面更改字体加载来源<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/the-wordpress-font-from-the-fonts-google-open-sans-for-360-cdn.html"></a>	</p>
+</article>
+</span>
+<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/let-your-wordpress-site-faster-16-tips.html" title="让你的WordPress网站更快的16条建议" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://pic.wpdaxue.com/2014/03/coolwp201.png?imageView2/1/w/375/h/250/q/100" alt="让你的WordPress网站更快的16条建议">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/let-your-wordpress-site-faster-16-tips.html" title="让你的WordPress网站更快的16条建议">让你的WordPress网站更快的16条建议</a></h3>
+	<p>
+		本文讨论一下如何让你使用Wordpress所建立的网站更快！ 1.选择一个好的主机 对于在使用免费主机或者共享主机（Godaddy啊、Bluehost啊等等所谓无限带宽、无限网站之类的主机）的读者来说，你可以直接忽略掉这一小节了。 首先，你的域名和你的主机最好在一个IDC哪儿，如果不是的话，建议你采用口碑良好的DNS服务商，让域名以最快的速度解析到主机上，这不是重点，重点是你的服务器/主机空间应该<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/let-your-wordpress-site-faster-16-tips.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/15-common-mistakes-in-wordpress.html" title="WordPress 建站中15个常见的错误" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/uploads/2015/11/c740217f9e2f07083364a78fe924b899a801f276-1024x1024.png?imageView2/1/w/375/h/250/q/100" alt="WordPress 建站中15个常见的错误">
+			<span><i class="fa fa-expand"></i></span>
+			</div>
+		</a>
+		<h3><a href="http://www.linuxwp.com/15-common-mistakes-in-wordpress.html" title="WordPress 建站中15个常见的错误">WordPress 建站中15个常见的错误</a></h3>
+	<p>
+		本文大致总结下Wordpress建站过程中常见的15个错误。 1.忘记或者忽略了网站备份 这是最常见的现象:买个域名，弄个空间，以Wordpress为核心建一个网站，放在那里不管了，网站备份什么的根本不知道或者不重视。 主机商也会出问题的啊，特别是数据库服务器（可能是因为磁盘读写量更大），特别是一些小的主机商或者是一些不负责任的主机商，更糟糕的情况是你用的主机服务是由一个既小有不负责任，还到处被人<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/15-common-mistakes-in-wordpress.html"></a>	</p>
+</article>
+</span>
+	
+		</div>
+	</section>
+		<section class="catlist-133 catlist clr">
+		<div class="catlist-container clr">
+			<h2 class="home-heading clr">
+				<span class="heading-text">
+					PHP				</span>
+				<a href="http://www.linuxwp.com/php">+ 更多</a>
+			</h2>
+		<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/php-ap-cphp5-5-above-support.html" title="Php apc/PHP5.5以上支持" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/33.jpg?imageView2/1/w/375/h/250/q/100" alt="Php apc/PHP5.5以上支持">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/php-ap-cphp5-5-above-support.html" title="Php apc/PHP5.5以上支持">Php apc/PHP5.5以上支持</a></h3>
+	<p>
+		官方源码库 http://git.php.net/?p=pecl/caching/apc.git;a=summary 经验 目前的版本都和5.5有问题,从源码库用最新的版本看起来没问题 [crayon-5660722cbcb4f096545969/] 正常的配置,编译,安装 [crayon-5660722cbcb5b374275923/]<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/php-ap-cphp5-5-above-support.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">3</span>
+								<a href="http://www.linuxwp.com/phpstorm-10-pycharm5-activation-method.html" title="PhpStorm 10 Pycharm5 等新产品 激活方法" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://oss.jjmm.me/wp-content/uploads/2015/11/7ce723ddjw1exo96n76vvj20mi0gu40u.jpg?imageView2/1/w/375/h/250/q/100" alt="PhpStorm 10 Pycharm5 等新产品 激活方法">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/phpstorm-10-pycharm5-activation-method.html" title="PhpStorm 10 Pycharm5 等新产品 激活方法">PhpStorm 10 Pycharm5 等新产品 激活方法</a></h3>
+	<p>
+		注册时选择“License server”输入“http://idea.lanyus.com/” 点击“OK” 快速激活JetBrains系列产品（不行多点几次）<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/phpstorm-10-pycharm5-activation-method.html"></a>	</p>
+</article>
+</span>
+<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">2</span>
+								<a href="http://www.linuxwp.com/phpstorm-10-chinese-version-download.html" title="PhpStorm 10 10.0.1中文汉化破解版下载 汉化包" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/31.jpg?imageView2/1/w/375/h/250/q/100" alt="PhpStorm 10 10.0.1中文汉化破解版下载 汉化包">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/phpstorm-10-chinese-version-download.html" title="PhpStorm 10 10.0.1中文汉化破解版下载 汉化包">PhpStorm 10 10.0.1中文汉化破解版下载 汉化包</a></h3>
+	<p>
+		PhpStorm 10 汉化中文破解版是一款由JetBrains公司开发推出的商业PHP集成开发工具.于今天正式发布，最新版PhpStorm 10正式版改进了PHP 7支持 (including PHP 7 compatibility inspections)，改进代码完成功能.由于官方不支持中文语言，第一时间给大家带来了汉化版的下载，欢迎下载。 软件功能 智能PHP编辑器 PHP代码补全。 智能<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/phpstorm-10-chinese-version-download.html"></a>	</p>
+</article>
+</span>
+	
+		</div>
+	</section>
+		<section class="catlist-137 catlist clr">
+		<div class="catlist-container clr">
+			<h2 class="home-heading clr">
+				<span class="heading-text">
+					WordPress插件				</span>
+				<a href="http://www.linuxwp.com/wordpress/wordpress-plugin">+ 更多</a>
+			</h2>
+		<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/contact-form-7.html" title="强大的WordPress联系表单插件：Contact Form 7" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://oss.jjmm.me/wp-content/uploads/2015/11/36020151118155834972.jpg?imageView2/1/w/375/h/250/q/100" alt="强大的WordPress联系表单插件：Contact Form 7">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/contact-form-7.html" title="强大的WordPress联系表单插件：Contact Form 7">强大的WordPress联系表单插件：Contact Form 7</a></h3>
+	<p>
+		如果你想给WordPress站点添加一个联系表单，让用户及时与你邮件联系，倡萌推荐你使用强大的WordPress联系表单插件 Contact Form 7。 Contact Form 7 简介 Contact Form 7 是一款简单易用扩展性灵活的WordPress联系表单插件，可以自定义各式各样不同类型的表单功能，而且支持自定义接收邮件，Ajax提交和 jQuery表单插件支持。可结合Akis<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/contact-form-7.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/baidu-wordpress-structured-data-plug-in.html" title="使用百度 WordPress 结构化数据插件，解决博客内容收录问题" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://pic.wpdaxue.com/2012/12/wpdaxue.com-201212214.png?imageView2/1/w/375/h/250/q/100" alt="使用百度 WordPress 结构化数据插件，解决博客内容收录问题">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/baidu-wordpress-structured-data-plug-in.html" title="使用百度 WordPress 结构化数据插件，解决博客内容收录问题">使用百度 WordPress 结构化数据插件，解决博客内容收录问题</a></h3>
+	<p>
+		WordPress Related Posts 是 我爱水煮鱼 开发的一款相关文章插件，后来卖给老外开发了，WordPress Related Posts 插件的主要特色如下： 根据标签 tag 进行文章关联，如果不够数，似乎是使用随机文章补充； 多种样式可选（标题列表，多种布局的图文列表），还可自定义CSS； 支持显示摘要、时间、评论数； 支持后台统计显示次数和点击次数（移动端和PC端） 支持F<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/baidu-wordpress-structured-data-plug-in.html"></a>	</p>
+</article>
+</span>
+<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/auto-highslide-modified-version.html" title="WordPress图片插件：Auto Highslide修改版" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://jjmmoss.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2015/10/5595095429422520451.jpg?imageView2/1/w/375/h/250/q/100" alt="WordPress图片插件：Auto Highslide修改版">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/auto-highslide-modified-version.html" title="WordPress图片插件：Auto Highslide修改版">WordPress图片插件：Auto Highslide修改版</a></h3>
+	<p>
+		一直以来很多人都很喜欢我博客使用的图片插件，因为我用的跟原版是有些不同的，效果比原版的要好，他有白色遮罩层，可以直观的知道上下翻图片和幻灯片放映模式。很多人使用原版之后发现我用的更加帅一些，于是很多人想要了。 之前都是发给跟我要的朋友的，最近要的人貌似多了起来了，不如提供下载来的更加方便。 Auto Highslide修改版下载地址： auto-highslide.zip 使用方法： 使用很简单，<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/auto-highslide-modified-version.html"></a>	</p>
+</article>
+</span>
+	
+		</div>
+	</section>
+		<section class="catlist-138 catlist clr">
+		<div class="catlist-container clr">
+			<h2 class="home-heading clr">
+				<span class="heading-text">
+					WordPress教程				</span>
+				<a href="http://www.linuxwp.com/wordpress/wordpress-tutorial">+ 更多</a>
+			</h2>
+		<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">3</span>
+								<a href="http://www.linuxwp.com/for-the-navigation-menu-to-add-personality-icon-fonts.html" title="为导航菜单添加个性图标字体" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/uploads/2015/12/20151202012146120.jpg?imageView2/1/w/375/h/250/q/100" alt="为导航菜单添加个性图标字体">
+			<span><i class="fa fa-expand"></i></span>
+			</div>
+		</a>
+		<h3><a href="http://www.linuxwp.com/for-the-navigation-menu-to-add-personality-icon-fonts.html" title="为导航菜单添加个性图标字体">为导航菜单添加个性图标字体</a></h3>
+	<p>
+		目前图标字体非常流行，图标字体使用简单，与图片格式的小图标相比，支持视网膜显示，可以无限放大。特别是一些响应式设计的主题模板，都会或多或少使用图标字体，除了主题集成的图标字体，我们还可以单独为导航菜单上的项目也配上个性化的图标字体。 具体方法： 一、WP后台--插件--安装插件页面搜索：Font Awesome 4 Menus，下载安装并启用。 二、WP后台---外观---菜单，进入菜单设置页面，<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/for-the-navigation-menu-to-add-personality-icon-fonts.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">1</span>
+								<a href="http://www.linuxwp.com/wordpress-database-and-table-structure.html" title="WordPress数据库及各表结构" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/35.jpg?imageView2/1/w/375/h/250/q/100" alt="WordPress数据库及各表结构">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/wordpress-database-and-table-structure.html" title="WordPress数据库及各表结构">WordPress数据库及各表结构</a></h3>
+	<p>
+		WordPress使用MySQL数据库。作为一个开发者，我们有必要掌握WordPress数据库的基本构造，并在自己的插件或主题中使用他们。 截至WordPress3.0，WordPress一共有以下11个表。这里加上了默认的表前缀 wp_ 。 wp_commentmeta：存储评论的元数据 wp_comments：存储评论 wp_links：存储友情链接（Blogroll） wp_options：<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/wordpress-database-and-table-structure.html"></a>	</p>
+</article>
+</span>
+<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/wordpress-to-improve-the-relevance-of-search-results.html" title="WordPress提高搜索结果的相关性(准确度)" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/15.jpg?imageView2/1/w/375/h/250/q/100" alt="WordPress提高搜索结果的相关性(准确度)">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/wordpress-to-improve-the-relevance-of-search-results.html" title="WordPress提高搜索结果的相关性(准确度)">WordPress提高搜索结果的相关性(准确度)</a></h3>
+	<p>
+		WordPress本身的搜索结果是按照发布时间排序的，这样的搜索结果的相关性并不强，应该让搜索结果按照内容相关性排序，而不是按照时间或者 ID，所以我们可以在当前主题的 functions.php 添加如下代码来增强 WordPress 搜索的相关性： [crayon-5660722c85c9e809533032/] &nbsp; 上面的排序方法很简单：当文章标题含有关键字的时候给予权重值 2，内<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/wordpress-to-improve-the-relevance-of-search-results.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/edit-the-functions-php-file-of-the-wordpress-theme.html" title="编辑WordPress主题的 functions.php 文件的注意事项" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/37.jpg?imageView2/1/w/375/h/250/q/100" alt="编辑WordPress主题的 functions.php 文件的注意事项">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/edit-the-functions-php-file-of-the-wordpress-theme.html" title="编辑WordPress主题的 functions.php 文件的注意事项">编辑WordPress主题的 functions.php 文件的注意事项</a></h3>
+	<p>
+		很多教程都提到“将代码添加到主题的 functions.php 文件”，但总有些新手朋友总是反馈说：如何添加？添加后出错？添加后网站就不能访问啦……所以今天就来说说编辑 functions.php 文件应该注意哪些问题。 functions.php 有什么用 functions.php 是 WordPress 预留的功能函数文件，专门用于添加各种自定义函数代码。现在的WordPress主题的功能越<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/edit-the-functions-php-file-of-the-wordpress-theme.html"></a>	</p>
+</article>
+</span>
+<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">1</span>
+								<a href="http://www.linuxwp.com/the-wordpress-font-from-the-fonts-google-open-sans-for-360-cdn.html" title="将WordPress后台的open-sans字体加载源从Google Fonts换为360 CDN" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/4.jpg?imageView2/1/w/375/h/250/q/100" alt="将WordPress后台的open-sans字体加载源从Google Fonts换为360 CDN">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/the-wordpress-font-from-the-fonts-google-open-sans-for-360-cdn.html" title="将WordPress后台的open-sans字体加载源从Google Fonts换为360 CDN">将WordPress后台的open-sans字体加载源从Google Fonts换为360 CDN</a></h3>
+	<p>
+		[crayon-5660722ca9369878528518/] 将上面的代码添加到主题的 functions.php 即可在后台和登录界面更改字体加载来源<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/the-wordpress-font-from-the-fonts-google-open-sans-for-360-cdn.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/let-your-wordpress-site-faster-16-tips.html" title="让你的WordPress网站更快的16条建议" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://pic.wpdaxue.com/2014/03/coolwp201.png?imageView2/1/w/375/h/250/q/100" alt="让你的WordPress网站更快的16条建议">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/let-your-wordpress-site-faster-16-tips.html" title="让你的WordPress网站更快的16条建议">让你的WordPress网站更快的16条建议</a></h3>
+	<p>
+		本文讨论一下如何让你使用Wordpress所建立的网站更快！ 1.选择一个好的主机 对于在使用免费主机或者共享主机（Godaddy啊、Bluehost啊等等所谓无限带宽、无限网站之类的主机）的读者来说，你可以直接忽略掉这一小节了。 首先，你的域名和你的主机最好在一个IDC哪儿，如果不是的话，建议你采用口碑良好的DNS服务商，让域名以最快的速度解析到主机上，这不是重点，重点是你的服务器/主机空间应该<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/let-your-wordpress-site-faster-16-tips.html"></a>	</p>
+</article>
+</span>
+<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/15-common-mistakes-in-wordpress.html" title="WordPress 建站中15个常见的错误" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/uploads/2015/11/c740217f9e2f07083364a78fe924b899a801f276-1024x1024.png?imageView2/1/w/375/h/250/q/100" alt="WordPress 建站中15个常见的错误">
+			<span><i class="fa fa-expand"></i></span>
+			</div>
+		</a>
+		<h3><a href="http://www.linuxwp.com/15-common-mistakes-in-wordpress.html" title="WordPress 建站中15个常见的错误">WordPress 建站中15个常见的错误</a></h3>
+	<p>
+		本文大致总结下Wordpress建站过程中常见的15个错误。 1.忘记或者忽略了网站备份 这是最常见的现象:买个域名，弄个空间，以Wordpress为核心建一个网站，放在那里不管了，网站备份什么的根本不知道或者不重视。 主机商也会出问题的啊，特别是数据库服务器（可能是因为磁盘读写量更大），特别是一些小的主机商或者是一些不负责任的主机商，更糟糕的情况是你用的主机服务是由一个既小有不负责任，还到处被人<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/15-common-mistakes-in-wordpress.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/use-chrome-to-edit-css-and-save-it-in-real-time.html" title="使用Chrome 编辑 WordPress 主题的 style.css 并实时保存" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://pic.wpdaxue.com/2015/11/0120-cmhello_com.png?imageView2/1/w/375/h/250/q/100" alt="使用Chrome 编辑 WordPress 主题的 style.css 并实时保存">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/use-chrome-to-edit-css-and-save-it-in-real-time.html" title="使用Chrome 编辑 WordPress 主题的 style.css 并实时保存">使用Chrome 编辑 WordPress 主题的 style.css 并实时保存</a></h3>
+	<p>
+		作为 WordPress主题 开发者，倡萌一直都在使用谷歌浏览器作为默认的浏览器来进行主题调试修改。最常用的当然就是Chrome自带的开发者工具（按 F12 键即可开启），一般用来检查网站的 js冲突，和调试修改 css 样式代码。 在 开发者工具中调试修改css是可以及时预览到修改效果的，但是不能自动更新保存到css文件中，一旦刷新页面，调试修改的css代码就丢失了，所以在此之 前，倡萌都是调试<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/use-chrome-to-edit-css-and-save-it-in-real-time.html"></a>	</p>
+</article>
+</span>
+	
+		</div>
+	</section>
+		<section class="catlist-139 catlist clr">
+		<div class="catlist-container clr">
+			<h2 class="home-heading clr">
+				<span class="heading-text">
+					WordPress开发				</span>
+				<a href="http://www.linuxwp.com/wordpress/wordpress-development">+ 更多</a>
+			</h2>
+		<span class="s1 left">
+<article class="clr col-small">
+	<span class="views">64</span>
+								<a href="http://www.linuxwp.com/name-and-id-for-wordpress-all-categories.html" title="WordPress代码 之 获取WordPress所有分类名字和ID" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/uploads/2015/12/20151202004509115.jpg?imageView2/1/w/375/h/250/q/100" alt="WordPress代码 之 获取WordPress所有分类名字和ID">
+			<span><i class="fa fa-expand"></i></span>
+			</div>
+		</a>
+		<h3><a href="http://www.linuxwp.com/name-and-id-for-wordpress-all-categories.html" title="WordPress代码 之 获取WordPress所有分类名字和ID">WordPress代码 之 获取WordPress所有分类名字和ID</a></h3>
+	<p>
+		某些时候，我们需要获取WordPress 所有分类的名字和ID，我的主题设置界面，就使用了这个功能，如下图 实现的方法很简单，一起来操作吧 在主题的 functions.php 最后一个 ?&gt; 前添加下面的代码 [crayon-5660722c8421c846294420/] 在需要显示的地方添加下面的调用代码即可 [crayon-5660722c84229147422233/] 是不是很简<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/name-and-id-for-wordpress-all-categories.html"></a>	</p>
+</article>
+</span>
+<span class="s1 right">
+<article class="clr col-small">
+	<span class="views">0</span>
+								<a href="http://www.linuxwp.com/8-simple-methods-to-improve-the-wordpress-speed.html" title="8个简单方法提升WordPress速度" class="fancyimg home-blog-entry-thumb">
+					<div class="thumb-img">
+			<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/3.jpg?imageView2/1/w/375/h/250/q/100" alt="8个简单方法提升WordPress速度">
+			<span><i class="fa fa-expand"></i></span>			
+			</div>
+		</a>
+	<h3><a href="http://www.linuxwp.com/8-simple-methods-to-improve-the-wordpress-speed.html" title="8个简单方法提升WordPress速度">8个简单方法提升WordPress速度</a></h3>
+	<p>
+		WordPress是一个很棒的开源程序，几乎我认识的站长朋友当中，粗略估算有80%使用Wordpress。但很棒不等于完美，就在我所认识的这些朋友中，几乎所有人都会抱怨Wordpress太臃肿，运行效率太低了，大家有无同感？ 所以，今天这篇博文和大家分享8个小贴士来提升WP的运行效率，如果您运用了这些方法后发现确实有帮助，请把这篇博文分享给更多的人好吧？当然为了尊重劳动成果，也烦请指明出处。 1、<a rel="nofollow" class="more-link" style="text-decoration:none;" href="http://www.linuxwp.com/8-simple-methods-to-improve-the-wordpress-speed.html"></a>	</p>
+</article>
+</span>
+	
+		</div>
+	</section>
+	<!-- pagination -->
+<div class="clear">
+</div>
+<div class="pagination">
+</div>
+<!-- /.pagination -->
+</div>
+<script type="text/javascript">
+	$('.site_loading').animate({'width':'55%'},50);  //第二个节点
+</script>
+<div id="sidebar" class="clr">
+		<div id="tinucenter-2" class="widget widget_tinucenter form-inline">        		<li><span class="local-account"><a data-sign="0" class="btn btn-primary user-login"><i class="fa fa-wordpress"></i>本地帐号</a></span><span class="other-sign"><a class="qqlogin btn" href="http://www.linuxwp.com/?connect=qq&action=login&redirect=http%3A%2F%2Fwww.linuxwp.com"><i class="fa fa-qq"></i><span>QQ 登 录</span></a></span><span class="other-sign"><a class="weibologin btn" href="http://www.linuxwp.com/?connect=weibo&action=login&redirect=http%3A%2F%2Fwww.linuxwp.com"><i class="fa fa-weibo"></i><span>微博登录</span></a></span></li>		
+		</div>			<div id="tinsubscribe-2" class="widget widget_tinsubscribe">        		<span id="subscribe-span">
+			<input type="text" name="subscribe" id="subscribe" placeholder="yourname@domain.com"><button id="subscribe" class="btn btn-success">订阅</button>
+			<p id="subscribe-msg" style="display:none;margin-top:5px;margin-left:auto;margin-right:auto;font-size:12px;color:#f00;"></p>
+		</span>
+		</div>	<div id="tintabs-2" class="widget widget_tin_tabs">
+<ul class="tin-tabs-nav group tab-count-3"><li class="tin-tab tab-recent"><a href="#tab-recent" title="近期文章"><i class="fa fa-clock-o"></i><span>近期文章</span></a></li><li class="tin-tab tab-popular"><a href="#tab-popular" title="热门文章"><i class="fa fa-star"></i><span>热门文章</span></a></li><li class="tin-tab tab-comments"><a href="#tab-comments" title="最新评论"><i class="fa fa-comments-o"></i><span>最新评论</span></a></li></ul>		<div class="tin-tabs-container">
+											<ul id="tab-recent" class="tin-tab group thumbs-enabled">
+												<li>
+										<div class="tab-item-thumbnail">
+						<a href="http://www.linuxwp.com/for-the-navigation-menu-to-add-personality-icon-fonts.html" title="为导航菜单添加个性图标字体">
+														<div class="thumb-img">
+								<img src="http://img.linuxwp.com/wp-content/uploads/2015/12/20151202012146120.jpg?imageView2/1/w/125/h/78/q/100" alt="为导航菜单添加个性图标字体" />
+								<span><i class="fa fa-expand"></i></span>
+							</div>								
+													</a>
+					</div>
+										
+					<div class="tab-item-inner group">
+						<p class="tab-item-title"><a href="http://www.linuxwp.com/for-the-navigation-menu-to-add-personality-icon-fonts.html" rel="bookmark" title="为导航菜单添加个性图标字体">为导航菜单添加个性图标字体</a></p>
+						<span class="tab-item-date">2015-12-2</span>&nbsp;
+						<span class="tab-item-category"><a href="http://www.linuxwp.com/wordpress/wordpress-tutorial" rel="category tag">WordPress教程</a></span>					</div>
+					
+				</li>
+												<li>
+										<div class="tab-item-thumbnail">
+						<a href="http://www.linuxwp.com/name-and-id-for-wordpress-all-categories.html" title="WordPress代码 之 获取WordPress所有分类名字和ID">
+														<div class="thumb-img">
+								<img src="http://img.linuxwp.com/wp-content/uploads/2015/12/20151202004509115.jpg?imageView2/1/w/125/h/78/q/100" alt="WordPress代码 之 获取WordPress所有分类名字和ID" />
+								<span><i class="fa fa-expand"></i></span>
+							</div>								
+													</a>
+					</div>
+										
+					<div class="tab-item-inner group">
+						<p class="tab-item-title"><a href="http://www.linuxwp.com/name-and-id-for-wordpress-all-categories.html" rel="bookmark" title="WordPress代码 之 获取WordPress所有分类名字和ID">WordPress代码 之 获取WordPress所有分类名字和ID</a></p>
+						<span class="tab-item-date">2015-11-30</span>&nbsp;
+						<span class="tab-item-category"><a href="http://www.linuxwp.com/wordpress/wordpress-development" rel="category tag">WordPress开发</a></span>					</div>
+					
+				</li>
+												<li>
+										<div class="tab-item-thumbnail">
+						<a href="http://www.linuxwp.com/wordpress-database-and-table-structure.html" title="WordPress数据库及各表结构">
+														<div class="thumb-img">
+								<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/11.jpg?imageView2/1/w/125/h/78/q/100" alt="WordPress数据库及各表结构" />
+								<span><i class="fa fa-expand"></i></span>
+							</div>
+													</a>
+					</div>
+										
+					<div class="tab-item-inner group">
+						<p class="tab-item-title"><a href="http://www.linuxwp.com/wordpress-database-and-table-structure.html" rel="bookmark" title="WordPress数据库及各表结构">WordPress数据库及各表结构</a></p>
+						<span class="tab-item-date">2015-11-28</span>&nbsp;
+						<span class="tab-item-category"><a href="http://www.linuxwp.com/wordpress/wordpress-tutorial" rel="category tag">WordPress教程</a></span>					</div>
+					
+				</li>
+												<li>
+										<div class="tab-item-thumbnail">
+						<a href="http://www.linuxwp.com/cloudfs-a-one-click-installation-guide.html" title="cloudfs 一键式安装指导书">
+														<div class="thumb-img">
+								<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/20.jpg?imageView2/1/w/125/h/78/q/100" alt="cloudfs 一键式安装指导书" />
+								<span><i class="fa fa-expand"></i></span>
+							</div>
+													</a>
+					</div>
+										
+					<div class="tab-item-inner group">
+						<p class="tab-item-title"><a href="http://www.linuxwp.com/cloudfs-a-one-click-installation-guide.html" rel="bookmark" title="cloudfs 一键式安装指导书">cloudfs 一键式安装指导书</a></p>
+						<span class="tab-item-date">2015-11-28</span>&nbsp;
+						<span class="tab-item-category"><a href="http://www.linuxwp.com/linux" rel="category tag">Linux</a></span>					</div>
+					
+				</li>
+												<li>
+										<div class="tab-item-thumbnail">
+						<a href="http://www.linuxwp.com/cloudfs4oss-1-0-1-20150527.html" title="cloudfs4oss-1.0.1 发布（20150527）">
+														<div class="thumb-img">
+								<img src="http://img.linuxwp.com/wp-content/themes/tinection/images/random/39.jpg?imageView2/1/w/125/h/78/q/100" alt="cloudfs4oss-1.0.1 发布（20150527）" />
+								<span><i class="fa fa-expand"></i></span>
+							</div>
+													</a>
+					</div>
+										
+					<div class="tab-item-inner group">
+						<p class="tab-item-title"><a href="http://www.linuxwp.com/cloudfs4oss-1-0-1-20150527.html" rel="bookmark" title="cloudfs4oss-1.0.1 发布（20150527）">cloudfs4oss-1.0.1 发布（20150527）</a></p>
+						<span class="tab-item-date">2015-11-28</span>&nbsp;
+						<span class="tab-item-category"><a href="http://www.linuxwp.com/linux" rel="category tag">Linux</a></span>					</div>
+					
+				</li>
+							</ul><!--/.tin-tab-->
+
+		
+						
+						<ul id="tab-popular" class="tin-tab group thumbs-enabled">
+				
+												<li>
+				
+										<div class="tab-item-thumbnail">
+						<a href="http://www.linuxwp.com/for-the-navigation-menu-to-add-personality-icon-fonts.html" title="为导航菜单添加个性图标字体">
+														<div class="thumb-img">
+								<img src="http://img.linuxwp.com/wp-content/uploads/2015/12/20151202012146120.jpg?imageView2/1/w/125/h/78/q/100" alt="为导航菜单添加个性图标字体" />
+								<span><i class="fa fa-expand"></i></span>
+							</div>
+													</a>
+					</div>
+										
+					<div class="tab-item-inner group">
+						<p class="tab-item-title"><a href="http://www.linuxwp.com/for-the-navigation-menu-to-add-personality-icon-fonts.html" rel="bookmark" title="为导航菜单添加个性图标字体">为导航菜单添加个性图标字体</a></p>
+						<span class="tab-item-date">2015-12-2</span>&nbsp;
+						<span class="tab-item-category"><a href="http://www.linuxwp.com/wordpress/wordpress-tutorial" rel="category tag">WordPress教程</a></span>					</div>
+					
+				</li>
+												<li>
+				
+										<div class="tab-item-thumbnail">
+						<a href="http://www.linuxwp.com/linux-and-terminal-vim-color.html" title="linux下Vim和Terminal配色">
+														<div class="thumb-img">
+								<img src="http://images.cnitblog.com/blog/202708/201404/231030266541847.png?imageView2/1/w/125/h/78/q/100" alt="linux下Vim和Terminal配色" />
+								<span><i class="fa fa-expand"></i></span>
+							</div>
+													</a>
+					</div>
+										
+					<div class="tab-item-inner group">
+						<p class="tab-item-title"><a href="http://www.linuxwp.com/linux-and-terminal-vim-color.html" rel="bookmark" title="linux下Vim和Terminal配色">linux下Vim和Terminal配色</a></p>
+						<span class="tab-item-date">2015-11-11</span>&nbsp;
+						<span class="tab-item-category"><a href="http://www.linuxwp.com/linux" rel="category tag">Linux</a></span>					</div>
+					
+				</li>
+												<li>
+				
+										<div class="tab-item-thumbnail">
+						<a href="http://www.linuxwp.com/theme-shows-the-background-to-add-the-icp-record-number.html" title="让主题显示 WordPress 后台添加的ICP备案号">
+														<div class="thumb-img">
+								<img src="http://jjmmoss.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2015/11/2014-10-12_150316.png?imageView2/1/w/125/h/78/q/100" alt="让主题显示 WordPress 后台添加的ICP备案号" />
+								<span><i class="fa fa-expand"></i></span>
+							</div>
+													</a>
+					</div>
+										
+					<div class="tab-item-inner group">
+						<p class="tab-item-title"><a href="http://www.linuxwp.com/theme-shows-the-background-to-add-the-icp-record-number.html" rel="bookmark" title="让主题显示 WordPress 后台添加的ICP备案号">让主题显示 WordPress 后台添加的ICP备案号</a></p>
+						<span class="tab-item-date">2015-11-11</span>&nbsp;
+						<span class="tab-item-category"><a href="http://www.linuxwp.com/wordpress/wordpress-tutorial" rel="category tag">WordPress教程</a></span>					</div>
+					
+				</li>
+												<li>
+				
+										<div class="tab-item-thumbnail">
+						<a href="http://www.linuxwp.com/auto-highslide-modified-version.html" title="WordPress图片插件：Auto Highslide修改版">
+														<div class="thumb-img">
+								<img src="http://jjmmoss.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2015/10/5595095429422520451.jpg?imageView2/1/w/125/h/78/q/100" alt="WordPress图片插件：Auto Highslide修改版" />
+								<span><i class="fa fa-expand"></i></span>
+							</div>
+													</a>
+					</div>
+										
+					<div class="tab-item-inner group">
+						<p class="tab-item-title"><a href="http://www.linuxwp.com/auto-highslide-modified-version.html" rel="bookmark" title="WordPress图片插件：Auto Highslide修改版">WordPress图片插件：Auto Highslide修改版</a></p>
+						<span class="tab-item-date">2015-11-11</span>&nbsp;
+						<span class="tab-item-category"><a href="http://www.linuxwp.com/wordpress/wordpress-plugin" rel="category tag">WordPress插件</a></span>					</div>
+					
+				</li>
+												<li>
+				
+										<div class="tab-item-thumbnail">
+						<a href="http://www.linuxwp.com/super-cache-wp-supports-mod_rewrite-mode.html" title="Nginx下让WP Super Cache支持&#8221;mod_rewrite&#8221;模式">
+														<div class="thumb-img">
+								<img src="http://oss.jjmm.me/wp-content/uploads/2015/11/super-cache-rewrite.png?imageView2/1/w/125/h/78/q/100" alt="Nginx下让WP Super Cache支持&#8221;mod_rewrite&#8221;模式" />
+								<span><i class="fa fa-expand"></i></span>
+							</div>
+													</a>
+					</div>
+										
+					<div class="tab-item-inner group">
+						<p class="tab-item-title"><a href="http://www.linuxwp.com/super-cache-wp-supports-mod_rewrite-mode.html" rel="bookmark" title="Nginx下让WP Super Cache支持&#8221;mod_rewrite&#8221;模式">Nginx下让WP Super Cache支持&#8221;mod_rewrite&#8221;模式</a></p>
+						<span class="tab-item-date">2015-11-14</span>&nbsp;
+						<span class="tab-item-category"><a href="http://www.linuxwp.com/linux" rel="category tag">Linux</a></span>					</div>
+					
+				</li>
+							</ul><!--/.tin-tab-->
+			
+				
+						
+			<ul id="tab-comments" class="tin-tab group avatars-enabled">
+							</ul><!--/.tin-tab-->
+
+			</div>
+
+</div>
+		<div id="tinmailcontact-2" class="widget widget_tinmailcontact">                  					<div id="mailmessage">
+						<form method="post" id="mailmessage-form">
+							<div class="mailmessage-box">
+								<label for="t-name"><i class="fa fa-user"></i></label>
+								<input name="t-name" type="text" id="t-name" class="text_input" size="24" value="" tabindex='8' placeholder="你的称呼" />
+							</div>
+							<div class="mailmessage-box">
+								<label for="t-email"><i class="fa fa-envelope"></i></label>
+								<input name="t-email" type="text" id="t-email" class="text_input" size="24" value="" tabindex='9'    placeholder="你的邮件地址" /><br/>
+							</div>
+							<div class="mailmessage-box">
+																<label for='math'><i class="fa fa-key"></i></label>
+								<input type='text' name='sum' id='captcha2' class='math_textfield' value='' size='22' tabindex='10' placeholder="50+23= ?"/>
+								<input type='hidden' id='t-num1' name='num1' value="50"/>
+								<input type='hidden' id='t-num2' name='num2' value="23"/>
+							</div>
+							<div class="mailmessage-box-txt">
+								<textarea name="t-comment" id="t-comment" rows="8" class="text_input long" placeholder="消息内容..." tabindex='11'></textarea>
+							</div>
+							<p class="err"></p>
+							<input id="submit-mail" name="submit" type="submit" value="发   送" tabindex='12' />
+						</form>
+					</div>
+
+		</div>
+	<div class="floatwidget-container">
+</div>
+</div>
+<script type="text/javascript">
+	$('.site_loading').animate({'width':'78%'},50);  //第三个节点
+</script></div>
+<div class="clear">
+</div>	<!-- Blocks Layout -->
+	</div>
+<!--/.Main Wrap -->
+<!-- Bottom Banner -->
+<div style="height:20px;"></div>
+<!-- /.Bottom Banner -->
+<div id="ft-wg-sr">
+	<div class="container">
+			<div id="tinbookmarkh-2" class="widget widget_tinbookmarkh">        <h3><span class=widget-title>友情链接<a target="_blank" href="http://www.linuxwp.com/links">申请</a></span></h3>		<div class="tinbookmarkh"><ul></ul></div>		</div>
+		</div>
+</div>
+<!-- Footer -->
+<!-- Footer Wrap -->
+<div id="footer-wrap">
+	<div id="footer" class="layout-wrap">
+		<!-- Footer Widgets -->
+		<div id="footer-widgets">
+														
+				<div class="footer-widgets-1 footer-widgets-one-third ">
+							<div id="tinaboutsite-2" class="widget widget_tinaboutsite">        <h3><span class=widget-title>关于本站</span></h3>		<div class="aboutsite">LinuxWP是由WordPress爱好者yszar建立的一个WordPress以及WEB资源站，集WordPress教程、主题、插件以及众多前端素材、代码等其他内容于一体，本站汇集为WordPress以及前端开发提供帮助的前端网页特效、建站PSD模板、网页模板、开发教程等素材，相关内容均保证绿色安全、优质实用，是您建站学习好帮手。LinuxWP欢迎大家多多交流，期待共同学习进步。<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=9dcf8d2c615e22fe02da09ab4ea5e0fac7c0dd5c75dce415e7781e89874e3546"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="QQ交流群" title="QQ交流群" style="vertical-align: bottom;"></a></div>
+		</div>
+					</div>
+																
+				<div class="footer-widgets-2 footer-widgets-one-third ">
+							<div id="tinjoinus-2" class="widget widget_tinjoinus">        <h3><span class=widget-title>加入本站</span></h3>		<div class="joinus">如果您有不错的资源想发布至本站，您可以
+					<a href="#" class="user-login" title="登录后投稿">点击投稿</a>
+		。我们强烈推荐您注册本站账户或通过QQ、新浪微博登陆本站，使用投稿功能，畅享丰富资源以及积分服务。
+		</div>
+		<h3><span>站务合作</span></h3>
+		<div class="sitecooperate">如果您有站务合作方面的需求，请通过以下方式联系我。<br>QQ: 56312233<br>Email: yszar#vip.qq.com(#换成@)</div>
+		</div>
+					</div>
+																
+				<div class="footer-widgets-3 footer-widgets-one-third last">
+							<div id="tintagcloud-2" class="widget widget_tintagcloud">        <h3><span class=widget-title>标签</span></h3>		<aside class="tags"><a href='http://www.linuxwp.com/tag/%e9%85%8d%e8%89%b2' class='tag-link-26' title='1个话题' style='font-size: 12px;'>配色</a>
+<a href='http://www.linuxwp.com/tag/%e6%8f%92%e4%bb%b6' class='tag-link-32' title='1个话题' style='font-size: 12px;'>插件</a>
+<a href='http://www.linuxwp.com/tag/%e5%a4%87%e6%a1%88' class='tag-link-30' title='1个话题' style='font-size: 12px;'>备案</a>
+<a href='http://www.linuxwp.com/tag/%e5%8e%9f%e7%89%88' class='tag-link-34' title='1个话题' style='font-size: 12px;'>原版</a>
+<a href='http://www.linuxwp.com/tag/%e4%bf%ae%e6%94%b9%e7%89%88' class='tag-link-31' title='1个话题' style='font-size: 12px;'>修改版</a>
+<a href='http://www.linuxwp.com/tag/wp-super-cache' class='tag-link-38' title='1个话题' style='font-size: 12px;'>wp super cache</a>
+<a href='http://www.linuxwp.com/tag/wp' class='tag-link-27' title='1个话题' style='font-size: 12px;'>wp</a>
+<a href='http://www.linuxwp.com/tag/wordpress' class='tag-link-54' title='9个话题' style='font-size: 12px;'>wordpress</a>
+<a href='http://www.linuxwp.com/tag/vim' class='tag-link-21' title='1个话题' style='font-size: 12px;'>vim</a>
+<a href='http://www.linuxwp.com/tag/ubuntu' class='tag-link-93' title='4个话题' style='font-size: 12px;'>ubuntu</a>
+<a href='http://www.linuxwp.com/tag/terminal' class='tag-link-25' title='1个话题' style='font-size: 12px;'>terminal</a>
+<a href='http://www.linuxwp.com/tag/server' class='tag-link-18' title='1个话题' style='font-size: 12px;'>server</a>
+<a href='http://www.linuxwp.com/tag/related' class='tag-link-56' title='1个话题' style='font-size: 12px;'>related</a>
+<a href='http://www.linuxwp.com/tag/posts' class='tag-link-57' title='1个话题' style='font-size: 12px;'>posts</a>
+<a href='http://www.linuxwp.com/tag/phpstorm10%e6%bf%80%e6%b4%bb' class='tag-link-59' title='1个话题' style='font-size: 12px;'>PhpStorm10激活</a>
+<a href='http://www.linuxwp.com/tag/phpstorm' class='tag-link-43' title='1个话题' style='font-size: 12px;'>phpstorm</a>
+<a href='http://www.linuxwp.com/tag/nginx' class='tag-link-35' title='1个话题' style='font-size: 12px;'>nginx</a>
+<a href='http://www.linuxwp.com/tag/name' class='tag-link-19' title='1个话题' style='font-size: 12px;'>name</a>
+<a href='http://www.linuxwp.com/tag/mysql' class='tag-link-81' title='2个话题' style='font-size: 12px;'>mysql</a>
+<a href='http://www.linuxwp.com/tag/mod_rewrite' class='tag-link-39' title='1个话题' style='font-size: 12px;'>mod_rewrite</a>
+<a href='http://www.linuxwp.com/tag/linux' class='tag-link-24' title='2个话题' style='font-size: 12px;'>linux</a>
+<a href='http://www.linuxwp.com/tag/git' class='tag-link-60' title='1个话题' style='font-size: 12px;'>git</a>
+<a href='http://www.linuxwp.com/tag/cc' class='tag-link-20' title='1个话题' style='font-size: 12px;'>cc</a>
+<a href='http://www.linuxwp.com/tag/413%e9%94%99%e8%af%af' class='tag-link-47' title='1个话题' style='font-size: 12px;'>413错误</a></aside>
+		</div>
+					</div>
+														</div>
+		<div class="clr"></div>
+		<!-- /.Footer Widgets -->
+	</div>
+</div>
+<!-- /.Footer Wrap -->
+<!-- Footer Nav Wrap -->
+<footer id="footer-nav-wrap">
+	<div id="footer-nav" class="layout-wrap">
+		<div id="footer-nav-left">
+			<!-- Footer Nav -->
+						<!-- /.Footer Nav -->
+			<!-- Copyright -->
+			<div id="footer-copyright">&copy; 2015 - 2015 				All Rights Reserved&nbsp;|&nbsp;&nbsp;
+				<a href="http://www.linuxwp.com"  target="_blank">LinuxWP</a>
+				&nbsp;|&nbsp;<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?60032c82e22ed2981de07f89fb11d642";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>			&nbsp;|&nbsp;<a href="http://www.miitbeian.gov.cn/" target="_blank">陇ICP备15003024号-2</a>			<!--80 queries in 0.510 seconds.-->			
+			</div>
+			<!-- /.Copyright -->
+		</div>
+		<div id="footer-nav-right">
+			<!--  links -->
+<div id="footer-links-icons">
+	<span class="footer-wordpress-link">
+		<a href="http://wordpress.org" target="_blank" class="wordpress">
+			<span class="tinicon-wordpress"><i class="fa fa-wordpress"></i></span>
+			<br>WordPress
+		</a>
+	</span>
+	<span class="footer-aliyun-link">
+		<a href="http://www.zhiyanblog.com/go/aliyun" target="_blank" class="aliyun">
+			<span class="tinicon-aliyun"><i class="fa fa-cloud"></i></span>
+			<br>Aliyun
+		</a>
+	</span>
+	<!--span class="footer-qiniu-link">
+		<a href="http://www.zhiyanblog.com/go/qiniu" target="_blank" class="qiniu">
+			<span class="tinicon-qiniu"></span>
+			<br>Qiniu
+		</a>
+	</span-->
+		<span class="footer-sinaweibo-link">
+		<a href="http://weibo.com/yszar" target="_blank" class="sinaweibo">
+			<span class="tinicon-sinaweibo"><i class="fa fa-weibo"></i></span>
+			<br>Weibo
+		</a>
+	</span>
+	 
+		<span class="footer-qq-link">
+		<a href="http://wpa.qq.com/msgrd?v=3&uin=56312233&site=qq&menu=yes" target="_blank" class="qq">
+			<span class="tinicon-qq"><i class="fa fa-qq"></i></span>
+			<br>QQ
+		</a>
+	</span>
+	 
+	<span class="footer-rss-link">
+		<a href="http://www.linuxwp.com/feed" target="_blank" class="rss">
+			<span class="tinicon-rss"><i class="fa fa-rss"></i></span>
+			<br>RSS
+		</a>
+	</span>
+	 
+</div>
+<!-- /.links -->
+<div class="clear clr"></div>		</div>
+	</div>	
+</footer>
+<script type="text/javascript">
+	$('.site_loading').animate({'width':'90%'},50);  //第四个节点
+</script>
+</div>
+</section>
+<div id="sign" class="sign">
+    <div class="part loginPart">
+    <form id="login" action="http://www.linuxwp.com/wp-login.php" method="post" novalidate="novalidate">
+        <div id="register-active" class="switch"><i class="fa fa-toggle-on"></i>切换注册</div>        <h3>登录<p class="status"></p></h3>
+        <p>
+            <label class="icon" for="username"><i class="fa fa-user"></i></label>
+            <input class="input-control" id="username" type="text" placeholder="请输入用户名" name="username" required="" aria-required="true">
+        </p>
+        <p>
+            <label class="icon" for="password"><i class="fa fa-lock"></i></label>
+            <input class="input-control" id="password" type="password" placeholder="请输入密码" name="password" required="" aria-required="true">
+        </p>
+        <p class="safe">
+            <label class="remembermetext" for="rememberme"><input name="rememberme" type="checkbox" checked="checked" id="rememberme" class="rememberme" value="forever">记住我的登录</label>
+            <a class="lost" href="http://www.linuxwp.com/wp-login.php?action=lostpassword">忘记密码 ?</a>
+        </p>
+        <p>
+            <input class="submit" type="submit" value="登录" name="submit">
+        </p>
+        <a class="close"><i class="fa fa-times"></i></a>
+        <input type="hidden" id="security" name="security" value="6422197de4">
+		<input type="hidden" name="_wp_http_referer" value="/">
+	</form>
+        <div class="other-sign">
+      <p>您也可以使用第三方帐号快捷登录</p>
+	        <div class="2-col"><a class="qqlogin" href="http://www.linuxwp.com/?connect=qq&action=login&redirect=http%3A%2F%2Fwww.linuxwp.com"><i class="fa fa-qq"></i><span>Q Q 登 录</span></a></div>
+	  	  	  <div class="2-col"><a class="weibologin" href="http://www.linuxwp.com/?connect=weibo&action=login&redirect=http%3A%2F%2Fwww.linuxwp.com"><i class="fa fa-weibo"></i><span>微 博 登 录</span></a></div>
+	            </div>
+	    </div>
+    <div class="part registerPart">
+    <form id="register" action="http://www.linuxwp.com/wp-login.php?action=register" method="post" novalidate="novalidate">
+        <div id="login-active" class="switch"><i class="fa fa-toggle-off"></i>切换登录</div>
+        <h3>注册<p class="status"></p></h3>    
+        <p>
+            <label class="icon" for="user_name"><i class="fa fa-user"></i></label>
+            <input class="input-control" id="user_name" type="text" name="user_name" placeholder="输入英文用户名" required="" aria-required="true">
+        </p>
+        <p>
+            <label class="icon" for="user_email"><i class="fa fa-envelope"></i></label>
+            <input class="input-control" id="user_email" type="email" name="user_email" placeholder="输入常用邮箱" required="" aria-required="true">
+        </p>
+        <p>
+            <label class="icon" for="user_pass"><i class="fa fa-lock"></i></label>
+            <input class="input-control" id="user_pass" type="password" name="user_pass" placeholder="密码最小长度为6" required="" aria-required="true">
+        </p>
+        <p>
+            <label class="icon" for="user_pass2"><i class="fa fa-retweet"></i></label>
+            <input class="input-control" type="password" id="user_pass2" name="user_pass2" placeholder="再次输入密码" required="" aria-required="true">
+        </p>
+        <p id="captcha_inline">
+            <input class="input-control inline" type="text" id="tin_captcha" name="tin_captcha" placeholder="输入验证码" required>
+            <img src="http://img.linuxwp.com/wp-content/themes/tinection/images/captcha-clk.png" class="captcha_img inline" title="点击刷新验证码">
+            <input class="submit inline" type="submit" value="注册" name="submit">
+        </p>
+        <a class="close"><i class="fa fa-times"></i></a>  
+        <input type="hidden" id="user_security" name="user_security" value="95a61676f8"><input type="hidden" name="_wp_http_referer" value="/"> 
+    </form>
+    </div>
+    <div class="clear"></div>
+</div><div class="floatbtn">
+
+<!-- Comment -->
+<!-- /.Comment -->
+
+<!-- Share -->
+<span id="bdshare" class="bdshare_t mobile-hide"><a class="bds_more" href="#" data-cmd="more"></a></span>
+<!-- /.Share -->
+
+<!-- QR -->
+<span id="qr" class="mobile-hide"><i class="fa fa-qrcode"></i>
+	<div id="floatbtn-qr">
+		<div id="floatbtn-qr-msg">扫一扫二维码分享</div>
+	</div>
+</span>
+<!-- /.QR -->
+
+<!-- Simplified or Traditional -->
+<span id="zh-cn-tw" class="mobile-hide"><i><a id="StranLink">繁</a></i></span>
+<!-- /.Simplified or Traditional -->
+
+<!-- Layout Switch -->
+<span id="layoutswt" class="mobile-hide">
+		<i class="fa fa-th-large is_cms" src="http://www.linuxwp.com"></i>
+</span>
+<!-- /.Layout Switch -->
+
+<!-- Back to Home -->
+<!-- /.Back to Home -->
+<!-- Scroll Top -->
+<span id="back-to-top"><i class="fa fa-arrow-up"></i></span>
+<!-- /.Scroll Top -->
+
+</div><!-- /.Footer Nav Wrap -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var ajax_sign_object = {"redirecturl":"http:\/\/www.linuxwp.com","ajaxurl":"http:\/\/www.linuxwp.com\/wp-admin\/admin-ajax.php","loadingmessage":"\u6b63\u5728\u8bf7\u6c42\u4e2d\uff0c\u8bf7\u7a0d\u7b49..."};
+/* ]]> */
+</script>
+<script src="http://img.linuxwp.com/wp-content/themes/tinection/includes/js/function.js"></script>
+<script type="text/javascript">var defaultEncoding = 0; var translateDelay = 100; var cookieDomain = "http://www.linuxwp.com";</script>
+<!-- 百度分享 -->
+<script type="text/javascript" id="bdshare_js" data="type=tools&mini=2"></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+		//在这里定义bds_config
+		var bds_config = {'snsKey':{'tsina':"781494016",'tqq':"101273790"}};
+		document.getElementById('bdshell_js').src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- 引入用户自定义代码 -->
+<!-- 引入主题js -->
+<div class="nmplaybar">
+    <div class="nmplayer-prosess"></div>
+    <div class="nmplayer-wrap">
+        <div class="nmplayer-info">
+            <span class="nmplayer-title"></span><span class="nmplayer-time"></span><span class="nmplayer-lrc"></span>
+        </div>
+        <div class="nmplayer-control">
+            <ul>
+                <li>
+                    <a id="nmplayer-prev" href="javascript:;">
+                        <span class="nm-previous fxfont "></span>
+                    </a>
+                </li>
+                <li>
+                    <a id="nmplayer-button" href="javascript:;">
+                        <span class="nm-pause fxfont "></span>
+                    </a>
+                </li>
+                <li>
+                    <a id="nmplayer-next" href="javascript:;">
+                        <span class="nm-next fxfont"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="jp_container_N" style="display:none">
+    <div id="jquery_jplayer_N" style="display:none">
+        <div class="jp-playlist">
+            <ul class="">
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</div><script type='text/javascript' src='http://img.linuxwp.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=1449074986'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.linuxwp.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"\u53d1\u9001\u4e2d\u3002\u3002\u3002","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://img.linuxwp.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=1449074986'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var nm_ajax_url = {"ajax_url":"http:\/\/www.linuxwp.com\/wp-admin\/admin-ajax.php","swfurl":"http:\/\/www.linuxwp.com\/wp-content\/plugins\/netease-musicstatic\/jquery.jplayer.swf","nonce":"dc6435d373","tworow":null};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://img.linuxwp.com/wp-content/plugins/netease-music/static/js/base.js?ver=1449074986'></script>
+<script type='text/javascript' src='http://img.linuxwp.com/wp-content/plugins/netease-music/static/js/page.js?ver=1449074986'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tin = {"ajax_url":"http:\/\/www.linuxwp.com\/wp-admin\/admin-ajax.php","tin_url":"http:\/\/www.linuxwp.com\/wp-content\/themes\/tinection","Tracker":{"type":"home","pid":1},"uid":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://img.linuxwp.com/wp-content/themes/tinection/includes/js/theme.min.js?ver=1449074986'></script>
+<!-- /.Footer -->
+<script type="text/javascript">
+	$('.site_loading').animate({'width':'100%'},50);  //第五个节点
+</script>
+</body>
+</html>
+<!-- Dynamic page generated in 0.515 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-12-04 00:47:40 -->

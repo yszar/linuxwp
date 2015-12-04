@@ -1,0 +1,21 @@
+#qiniu_tuchuang_post{
+	width:auto;
+	height:100px;
+	border:3px dashed silver;
+	line-height:100px;
+	text-align:center;
+	font-size:20px;
+	color:#d3d3d3;
+	cursor:pointer;
+}
+/*#qiniu_tuchuang_post *{
+	cursor:pointer;
+}*/
+#pickfiles{
+	position: absolute;
+	display: block;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}

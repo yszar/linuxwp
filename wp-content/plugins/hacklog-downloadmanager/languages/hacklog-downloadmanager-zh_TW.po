@@ -1,0 +1,1209 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hacklog-DownloadManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-13 19:47+0800\n"
+"PO-Revision-Date: 2011-12-13 19:47+0800\n"
+"Last-Translator: 荒野无灯 <admin@ihacklog.com>\n"
+"Language-Team: 六翼之章 <jimi@6ala.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext_noop:1,2;_x;esc_attr__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: D:\\htdocs\\wordpress\\wp-content\\plugins\\hacklog-downloadmanager\n"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:40
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:136
+msgid "Edit File"
+msgstr "編輯文件"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:92
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:740
+msgid "Error: Please give me a valid URL."
+msgstr "錯誤：請填寫正確的URL。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:147
+#, php-format
+msgid "Error In Editing File '%s (%s)'"
+msgstr "編輯文件 '%s (%s)' 時出錯"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:151
+#, php-format
+msgid "File '%s (%s)' Edited Successfully"
+msgstr "文件 '%s (%s)' 編輯成功"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:158
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:79
+msgid "Delete File"
+msgstr "刪除文件"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:175
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:225
+msgid "Error file_id!File id does not exists."
+msgstr "錯誤的文件id!文件不存在。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:176
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:226
+msgid "Return"
+msgstr "返回"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:245
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:246
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:912
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:535
+msgid "unknown"
+msgstr "未知"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:259
+msgid "Download Stats"
+msgstr "下載統計"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:263
+msgid "Total Files:"
+msgstr "文件總數："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:267
+msgid "Total Size:"
+msgstr "文件大小總量："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:271
+msgid "Total Hits:"
+msgstr "總下載次數"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-manager.php:275
+msgid "Total Bandwidth:"
+msgstr "下載頻寬總量："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:95
+msgid "Download Path"
+msgstr "下載文件路徑："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:96
+msgid "Download Path URL"
+msgstr "下載路徑URL"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:97
+msgid "Download Options(Use filename or Not、Download slug、Use Nice Permalink or Not、Time Limit、Hash Function、Check HTTP Referer)"
+msgstr "下載選項(是否使用文件名、下載slug、是否使用固定鏈接、最長執行時間、哈希函數、強制檢測HTTP來源)"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:98
+msgid "Download Method"
+msgstr "下載方法"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:99
+msgid "Download Display Type"
+msgstr "下載模板類型"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:100
+msgid "Download Custom CSS"
+msgstr "自定義CSS"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:101
+msgid "Download Popup Template"
+msgstr "下載模板（popup）"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:102
+msgid "Download Embedded Template"
+msgstr "嵌入下載模板"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:108
+msgid "Updated"
+msgstr "更新"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:140
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:143
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:402
+msgid "Download Options"
+msgstr "下載選項"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:148
+msgid "Download Path:"
+msgstr "下載路徑："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:156
+msgid "The absolute path to the directory where all the files are stored (without trailing slash)."
+msgstr "到存放下載文件的絕對路徑（最後不要加 / ）"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:161
+msgid "Download Path URL:"
+msgstr "下載URL:"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:169
+msgid "The url to the directory where all the files are stored (without trailing slash)."
+msgstr "到存放下載文件目錄的URL（最後不要加 / ）"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:175
+msgid "Use File Name Or File ID In Download URL?"
+msgstr "在下載URL中是使用文件名還是文件ID?"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:183
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:64
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:98
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:303
+msgid "File ID"
+msgstr "文件ID"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:200
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:307
+msgid "File Name"
+msgstr "文件名"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:212
+msgid "Change it to <strong>File ID</strong> when you encounter 404 error."
+msgstr "當你遇到404錯誤時，請修改它為<strong>文件ID</strong>."
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:219
+msgid "Download Nice Permalink:"
+msgstr "使用固定鏈接："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:227
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:147
+msgid "Yes"
+msgstr "是"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:246
+msgid "No"
+msgstr "否"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:256
+msgid "Change it to <strong>No</strong> when you encounter 404 error."
+msgstr "當你遇到404錯誤時，請修改它為<strong>否</strong>."
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:263
+msgid "Download Slug:"
+msgstr "下載slug"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:272
+msgid "This only affects when you have enabled <strong>Download Nice Permalink</strong> ."
+msgstr "該選項只在勾選使用 <strong>固定鏈接</strong> 時才有效。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:279
+msgid "Remote Download Time Limit:"
+msgstr "遠程文件下載超時限制："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:286
+msgid "Minutes"
+msgstr "分鐘"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:290
+msgid "This only affects when the plugin are downloading <strong>Remote File</strong> to your local server."
+msgstr "該選項只在保存<strong>遠程文件</strong>到本地伺服器時才有效。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:297
+msgid "Hash Function:"
+msgstr "哈希函數："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:313
+msgid "Download Method:"
+msgstr "下載方式："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:319
+msgid "Output File"
+msgstr "輸出文件"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:324
+msgid "Redirect To File"
+msgstr "直接跳轉到文件"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:328
+msgid "Change it to <strong>Redirect To File</strong> when you have problem with large files."
+msgstr "當下載大文件有問題時，請修改它為<strong>直接跳轉到文件</strong>."
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:335
+msgid "Check HTTP referer:"
+msgstr "強制檢測HTTP來源："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:342
+msgid "Not enabled"
+msgstr "不啟用"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:348
+msgid "Enabled"
+msgstr "啟用"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:352
+msgid "<strong>Enable this could save your a lot of bandwidth.</strong>"
+msgstr "<strong>啟用該項可以為你節省相當多的頻寬.</strong>"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:360
+msgid "Download display type:"
+msgstr "下載模板類型"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:367
+msgid "Embeded"
+msgstr "默認"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:373
+msgid "Popup"
+msgstr "彈出層"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:383
+msgid "Download Templates Custom CSS"
+msgstr "下載模板自定義CSS"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:387
+msgid "Restore Default CSS"
+msgstr "重置為默認CSS"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:402
+msgid "Download Templates (With Permission)"
+msgstr "下載模板（有權限）"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:407
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:492
+msgid "Download Template"
+msgstr "下載模板"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:410
+msgid "Displayed when you embedded a file within a post or a page and users have permission to download the file."
+msgstr "當你在文章或頁面中嵌入了文件並且用戶有權限下載該文件時會顯示這個。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:414
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:453
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:499
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:542
+msgid "Allowed Variables:"
+msgstr "允許的變量："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:432
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:471
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:517
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:560
+msgid "Restore Default Template"
+msgstr "重置為默認模板"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:446
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:535
+msgid "Download popup div template"
+msgstr "下載模板(popup div)"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:449
+msgid "Displayed the download info in a popup window when you embedded a file within a post or a page and users have permission to download the file."
+msgstr "當你在文章或頁面中嵌入了文件並且用戶有權限下載該文件時會在一popup div中顯示這個。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:486
+msgid "Download Templates (Without Permission)"
+msgstr "下載模板（無權下載）"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:495
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:538
+msgid "Displayed when you embedded a file within a post or a page and users <strong>DO NOT</strong> have permission to download the file."
+msgstr "當你在文章或頁面中嵌入了文件並且用戶 <strong>沒有</strong>權限下載該文件時會顯示這個。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-options.php:576
+msgid "Save Changes"
+msgstr "保存所有更改"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:43
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:150
+msgid "UNINSTALL Hacklog-DownloadManager"
+msgstr "卸載 Hacklog-DownloadManager"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:50
+#, php-format
+msgid "Table '%s' has been deleted."
+msgstr "表 '%s' 已經被成功刪除."
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:59
+#, php-format
+msgid "Setting Key '%s' has been deleted."
+msgstr "配置選項'%s' 已經被成功刪除."
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:63
+#, php-format
+msgid "Error deleting Setting Key '%s'."
+msgstr "刪除配置選項 '%s' 出錯."
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:69
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:109
+msgid "The download files uploaded by Hacklog-DownloadManager <strong>WILL NOT</strong> be deleted. You will have to delete it manually."
+msgstr "由Hacklog-DownloadManager 上傳的文件不會被刪除。你可以手動刪除它們。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:71
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:110
+#, php-format
+msgid "The path to the downloads folder is <strong>'%s'</strong>."
+msgstr "下載目錄的路徑為 <strong>'%s'</strong>."
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:92
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:105
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:403
+msgid "Uninstall Hacklog-DownloadManager"
+msgstr "卸載 Hacklog-DownloadManager"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:93
+#, php-format
+msgid "<a href=\"%s\">Click Here</a> To Finish The Uninstallation And Hacklog-DownloadManager Will Be Deactivated Automatically."
+msgstr "<a href=\"%s\">點擊這裡</a> 繼續插件的卸載，Hacklog-DownloadManager 將會被自動禁用."
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:106
+msgid "Deactivating Hacklog-DownloadManager plugin does not remove any data that may have been created, such as the download options and the download data. To completely remove this plugin, you can uninstall it here."
+msgstr "在後台插件管理中禁用Hacklog-DownloadManager插件並不會刪除任何被此插件創建的數據，比如下載選項和下載文件。要完全卸載此插件，請在這裡卸載它。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:108
+msgid "NOTE:"
+msgstr "注意："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:112
+msgid "WARNING:"
+msgstr "敬告："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:113
+msgid "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
+msgstr "一旦卸載，數據將不可還原。建議你先使用一個數據庫備份插件來備份一下所有數據。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:115
+msgid "The following WordPress Options/Tables will be DELETED:"
+msgstr "以下 WordPress 配置/表 將會被<strong>刪除</strong>:"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:120
+msgid "WordPress Options"
+msgstr "WordPress 配置"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:121
+msgid "WordPress Tables"
+msgstr "WordPress 表"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-uninstall.php:152
+msgid ""
+"You Are About To Uninstall Hacklog-DownloadManager From WordPress.\\n"
+"This Action Is Not Reversible.\\n"
+"\\n"
+" Choose [Cancel] To Stop, [OK] To Uninstall."
+msgstr ""
+"目前你正打算從WordPress卸載 Hacklog-DownloadManager.\\n"
+"此操作不可逆.\\n"
+"\\n"
+"選擇 [取消] 停止, [OK] 繼續卸載."
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-upload-or-add.php:31
+msgid "You do not have permission to upload files."
+msgstr "您沒有權限上傳文件。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-upload-or-add.php:41
+msgid "Hacklog DownloadManager"
+msgstr "Hacklog DownloadManager"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-upload-or-add.php:57
+msgid "upload a New File"
+msgstr "上傳新文件"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/download-upload-or-add.php:59
+msgid "View Downloads"
+msgstr "查看下載"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/update_to_hacklog.php:19
+msgid "Permission denied!"
+msgstr "對不起，您無權訪問此頁面。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:33
+msgid "Delete A File"
+msgstr "刪除一個文件"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:37
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:38
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:551
+msgid "File:"
+msgstr "文件："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:41
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:79
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:592
+msgid "File Name:"
+msgstr "文件名："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:45
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:84
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:596
+msgid "File Description:"
+msgstr "文件描述："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:49
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:89
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:601
+msgid "File Size:"
+msgstr "文件大小："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:53
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:76
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:317
+msgid "File Hits"
+msgstr "文件下載量"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:54
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:150
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:151
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:195
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:197
+msgid "hits"
+msgstr "次"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:57
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:84
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:309
+msgid "File Date"
+msgstr "文件日期"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:61
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:115
+msgid "File Updated Date:"
+msgstr "文件更新日期"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:65
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:119
+msgid "File Last Downloaded Date:"
+msgstr "文件最後被下載日期"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:69
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:123
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:615
+msgid "Allowed To Download:"
+msgstr "允許下載："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:74
+msgid "Delete File From Server?"
+msgstr "從伺服器物理刪除文件？"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:81
+#, php-format
+msgid ""
+"You Are About To The Delete This File \\'%s(%s)\\'.\\n"
+"This Action Is Not Reversible.\\n"
+"\\n"
+" Choose \\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr ""
+"目前你正打算刪除此文件：\\'%s(%s)\\'.\\n"
+"此操作不可逆.\\n"
+"\\n"
+"選擇 [取消] 停止, [確定] 繼續刪除."
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/delete_form.php:83
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:138
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:630
+msgid "Cancel"
+msgstr "取消"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:68
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:168
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:305
+msgid "File"
+msgstr "文件名"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:72
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:315
+msgid "File Size"
+msgstr "文件大小"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:80
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:319
+msgid "File Permission"
+msgstr "文件權限"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:88
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:311
+msgid "File Updated Date"
+msgstr "文件更新日期"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:92
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:313
+msgid "File Last Downloaded Date"
+msgstr "文件最後被下載日期"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:106
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:322
+msgid "Ascending"
+msgstr "升序"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:112
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:324
+msgid "Descending"
+msgstr "降序"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:150
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:400
+msgid "Manage Downloads"
+msgstr "管理下載"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:151
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:396
+msgid "Downloads"
+msgstr "下載"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:153
+#, php-format
+msgid "Displaying <strong>%s</strong> To <strong>%s</strong> Of <strong>%s</strong> Files"
+msgstr "當前顯示從<strong>%s</strong>到 <strong>%s</strong> /共 <strong>%s</strong> 個文件"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:153
+#, php-format
+msgid "Sorted By <strong>%s</strong> In <strong>%s</strong> Order"
+msgstr "按 <strong>%s</strong>以<strong>%s</strong> 方式排序"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:156
+msgid "File id:"
+msgstr "文件id："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:158
+msgid "Edit it!"
+msgstr "編輯之"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:167
+msgid "ID"
+msgstr "ID"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:169
+msgid "Size"
+msgstr "大小"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:170
+msgid "Hits"
+msgstr "下載量（次）"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:171
+msgid "Permission"
+msgstr "權限"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:172
+msgid "Date/Time Added"
+msgstr "上傳日期/時間 "
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:173
+msgid "Action"
+msgstr "操作"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:183
+#, php-format
+msgid "file <strong>%s</strong> does not exists!"
+msgstr "文件 <strong>%s</strong> 不存在！"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:205
+#, php-format
+msgid "Last Updated: %s, %s"
+msgstr "最後更新: %s, %s"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:205
+#, php-format
+msgid "Last Downloaded: %s, %s"
+msgstr "最後被下載: %s, %s"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:214
+msgid "Edit"
+msgstr "編輯"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:215
+msgid "Delete"
+msgstr "刪除"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:219
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:832
+msgid "Insert into post"
+msgstr "插入文章中"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:225
+msgid "No Files Found"
+msgstr "找不到文件"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:238
+msgid "Previous Page"
+msgstr "上頁"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:247
+msgid "Next Page"
+msgstr "下頁"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:254
+msgid "Total Pages"
+msgstr "頁面總數："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:257
+msgid "Go to First Page"
+msgstr "到第一頁"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:257
+msgid "First"
+msgstr "首頁"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:260
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:272
+msgid "Go to Page"
+msgstr "到第？頁"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:267
+msgid "Page"
+msgstr "頁"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:275
+msgid "Go to Last Page"
+msgstr "到最後一頁"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:275
+msgid "Last"
+msgstr "最後"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:287
+msgid "Filter Options: "
+msgstr "過濾選項："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:288
+msgid "Keywords:"
+msgstr "關鍵字："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:293
+msgid "Sort Options:"
+msgstr "排序選項："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:329
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:331
+msgid "Per Page"
+msgstr "每頁"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/download_list.php:339
+msgid "Go"
+msgstr "Go"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:35
+msgid "Edit A File"
+msgstr "編輯文件"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:41
+msgid "Current File:"
+msgstr "當前文件："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:46
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:554
+msgid "Local File:"
+msgstr "本地文件："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:48
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:556
+msgid "Browse Files"
+msgstr "瀏覽文件"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:54
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:561
+#, php-format
+msgid "Please upload the file to '%s' directory first."
+msgstr "請先上傳文件到 '%s' 目錄"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:58
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:565
+msgid "Upload File:"
+msgstr "上傳文件："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:61
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:568
+msgid "to"
+msgstr "到"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:67
+#, php-format
+msgid "Maximum file size is %s."
+msgstr "文件大小最大限制為%s."
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:71
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:579
+msgid "Remote File:"
+msgstr "遠程文件："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:75
+msgid "Please include http:// or ftp:// in front."
+msgstr "請務必在網址前面包含 http:// 或 ftp://"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:92
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:908
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:602
+msgid "bytes"
+msgstr "字節"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:94
+msgid "Auto Detection Of File Size"
+msgstr "自動檢測文件大小"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:97
+msgid "File Hits:"
+msgstr "文件下載量"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:98
+#, php-format
+msgid "%s hit"
+msgid_plural "%s hits"
+msgstr[0] "%s 次"
+msgstr[1] "%s 次"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:102
+msgid "Reset File Hits"
+msgstr "重置文件下載次數"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:105
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:606
+msgid "File Date:"
+msgstr "文件日期："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:106
+msgid "Existing Timestamp:"
+msgstr "存在的時間截"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:110
+msgid "Edit Timestamp"
+msgstr "編輯時間截"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:112
+msgid "Use Today's Date"
+msgstr "使用今天的日期"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:125
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:189
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:617
+msgid "Hidden"
+msgstr "隱藏"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:126
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:192
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:618
+msgid "Everyone"
+msgstr "所有人"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:127
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:195
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:619
+msgid "Registered Users Only"
+msgstr "只允許註冊用戶"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:128
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:198
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:620
+msgid "At Least Contributor Role"
+msgstr "至少為 Contributor  角色"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:129
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:201
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:621
+msgid "At Least Author Role"
+msgstr "至少為Author 角色"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:130
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:204
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:622
+msgid "At Least Editor Role"
+msgstr "至少為 Editor 角色"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/edit_form.php:131
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:207
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:623
+msgid "At Least Administrator Role"
+msgstr "至少為 Administrator 角色"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:150
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:151
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:197
+msgid ","
+msgstr ","
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:151
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:197
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:616
+msgid "You do not have permission to download this file."
+msgstr "您沒有權限下載此文件。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:162
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:165
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:168
+msgid "Download statement"
+msgstr "下載聲明"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:173
+msgid "File info"
+msgstr "文件信息"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:176
+msgid "File name"
+msgstr "文件名"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:177
+msgid "File hash"
+msgstr "文件Hash"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:178
+msgid "File size"
+msgstr "文件大小"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:179
+msgid "File uploaded"
+msgstr "文件上傳日期"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:180
+msgid "File updated"
+msgstr "文件更新日期"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:181
+msgid "File description"
+msgstr "文件描述"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:185
+msgid "Download URL"
+msgstr "下載URL"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:191
+msgid "Other notice"
+msgstr "其它注意事項"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:195
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:351
+msgid "Download"
+msgstr "下載"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:219
+msgid "Error: Content already sent! Please contact the site administrator to solve this problem."
+msgstr "錯誤：內容已經被發送！請聯繫站點管理員解決此問題。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:229
+msgid "Error: header already sent! Please contact the site administrator to solve this problem."
+msgstr "錯誤：HTTP頭部信息已經被發送！請聯繫站點管理員解決此問題。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:350
+msgid "Enter File ID (Separate Multiple IDs By A Comma)"
+msgstr "輸入 文件ID （多個ID請用 , 分隔）"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:352
+msgid "Insert File Download"
+msgstr "插入下載文件"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:385
+msgid "Settings"
+msgstr "設置"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:401
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:414
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:628
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/upload_handler.php:26
+msgid "Add File"
+msgstr "添加文件"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:465
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:468
+msgid "Add Download"
+msgstr "添加下載"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:527
+msgid "Invalid File ID or File Name."
+msgstr "非法ID或文件名。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:542
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:548
+msgid "Please do not leech."
+msgstr "請到本站下載。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:556
+msgid "File does not exist."
+msgstr "文件不存在。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:566
+msgid "Error: can not read the file!Please contact the webmaster."
+msgstr "錯誤：無法從伺服器讀取文件！請聯繫管理員。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:571
+msgid "Error: filesize is zero."
+msgstr "錯誤：文件大小為0"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:892
+msgid "TiB"
+msgstr "TB"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:896
+msgid "GiB"
+msgstr "GB"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:900
+msgid "MiB"
+msgstr "MB"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:904
+msgid "KiB"
+msgstr "KB"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:1000
+#, php-format
+msgid "Note: There is a file embedded within this post, please visit <a href=\"%s\">this post</a> to download the file."
+msgstr "注意：該頁面嵌入了下載文件，請訪問 <a href=\"%s\">該頁面</a>下載該文件。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm.class.php:1023
+msgid "We have problem finding your '/wp-admin/upgrade-functions.php' and '/wp-admin/includes/upgrade.php'"
+msgstr "無法找到 '/wp-admin/upgrade-functions.php' 或 '/wp-admin/includes/upgrade.php' 文件"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:95
+#, php-format
+msgid "Error: the download path %s does not exists!"
+msgstr "錯誤：下載目錄 %s 不存在！"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:101
+#, php-format
+msgid "Error: the download path %s is unwriteable,Please change the permission to <strong>0777</strong>!"
+msgstr "錯誤：下載文件存放的路徑 %s 不可寫，請更改其權限為<strong>0777</strong>!"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:548
+msgid "Add A File"
+msgstr "添加一個文件"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:574
+#, php-format
+msgid "Maximum file size is <strong>%s</strong>."
+msgstr "文件大小最大限制為<strong>%s</strong>."
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:575
+#, php-format
+msgid "Maximum upload time is <strong>%s seconds</strong>."
+msgstr "上傳時間最長限制為<strong>%s</strong>秒."
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:583
+msgid "Save to local host"
+msgstr "保存到本地伺服器"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:584
+msgid "to dir "
+msgstr "到目錄:"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:588
+msgid "Please include <span style=\"color:red;\">http://</span> or <span style=\"color:red;\">ftp://</span> in front.For direcotry please include <span style=\"color:red;\">/</span> in front!"
+msgstr "請在前面包含<span style=\"color:red;\">http://</span> 或 <span style=\"color:red;\">ftp://</span>。對於目錄，請在前面添加<span style=\"color:red;\">/</span>!"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:603
+msgid "Leave blank for auto detection. Auto detection sometimes will not work for Remote File."
+msgstr "留空自動檢測。註：對於遠程文件，自動檢測有時會檢測不到正確的文件大小。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:610
+msgid "Starting File Hits:"
+msgstr "初始文件下載量："
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:649
+#, php-format
+msgid "Error:File '%s ' has already been added!The file_id is:<strong>%d</strong>"
+msgstr "錯誤：文件 '%s '已經上傳過了！文件id是:<strong>%d</strong>"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:683
+#, php-format
+msgid "File Size Too Large. Maximum Size Is %s"
+msgstr "文件大小超過最大限制（%s ）"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:690
+msgid "Please select a File to be upload!"
+msgstr "請選擇要上傳的文件！"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:719
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:725
+msgid "Error In Uploading File"
+msgstr "上傳文件到伺服器時出錯"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:766
+msgid "Error In downloading File to local host!"
+msgstr "下載文件到本地伺服器時出錯!"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:771
+msgid "-_-Downloading File to local host successfuly!"
+msgstr "-_-成功下載文件到本地伺服器!"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:801
+msgid "Error:File name REQUIRED!Please assign a file name for displaying."
+msgstr "錯誤：文件名必需！請填寫文件名。"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:821
+#, php-format
+msgid "Error In Adding File '%s (%s)' To Database!"
+msgstr "添加文件 %s (%s )到數據庫時出錯!"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:825
+#, php-format
+msgid "File '%s (%s)' Added Successfully!<br/><strong>File ID is: %s </strong>"
+msgstr "文件 '%s (%s)' 添加成功!<br/><strong>文件ID 是: %s </strong>"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:830
+msgid "Insert new download into post"
+msgstr "插入下載文件到文章"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:850
+#, php-format
+msgid "Error In Deleting File '%s (%s)' From Server"
+msgstr "從伺服器物理刪除文件 '%s (%s)' 時出錯！"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:854
+#, php-format
+msgid "File '%s (%s)' Deleted From Server Successfully"
+msgstr "從伺服器物理刪除文件 '%s (%s)' 成功！"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:860
+#, php-format
+msgid "Error In Deleting File '%s (%s)'"
+msgstr "刪除文件 '%s (%s)'  出錯"
+
+#: D:\htdocs\wordpress\wp-content\plugins\hacklog-downloadmanager/includes/hacklogdm_admin.class.php:864
+#, php-format
+msgid "File '%s (%s)' Deleted Successfully"
+msgstr "文件 '%s (%s)' 成功刪除！"
+
+#~ msgid "Add Download %s"
+#~ msgstr "添加下載 %s"
+
+#~ msgid "Blue"
+#~ msgstr "藍"
+
+#~ msgid "Gray"
+#~ msgstr "灰"
+
+#, fuzzy
+#~ msgid "Local File"
+#~ msgstr "文件總數："
+
+#~ msgid "Error in adding remote file."
+#~ msgstr "遠程文件添加失敗！"
+
+#~ msgid "Pages"
+#~ msgstr "頁面"
+
+#~ msgid "No Download Option Updated"
+#~ msgstr "沒有下載選項被更新。"
+
+#~ msgid ""
+#~ "Displaying <strong>%s</strong> To <strong>%s</strong> Of <strong>%s</"
+#~ "strong> Files ,"
+#~ msgstr ""
+#~ "當前顯示從<strong>%s</strong>到 <strong>%s</strong> /共 <strong>%s</"
+#~ "strong> 個文件，"
+
+#, fuzzy
+#~ msgid ""
+#~ "Displayed  the download info in a popup window  when you embedded a file "
+#~ "within a post or a page and users <strong>DO NOT</strong> have permission "
+#~ "to download the file."
+#~ msgstr ""
+#~ "當你在文章或頁面中嵌入了文件並且用戶 <strong>沒有</strong>權限下載該文件時"
+#~ "會顯示這個。"
+
+#~ msgid "Download Embedded File"
+#~ msgstr "下載嵌入文件"
+
+#~ msgid "Uploads"
+#~ msgstr "上傳文件"
+
+#, fuzzy
+#~ msgid "WordPress"
+#~ msgstr "WordPress 表"
+
+#~ msgid "Category"
+#~ msgstr "分類"
+
+#~ msgid "File Category:"
+#~ msgstr "文件分類："
+
+#~ msgid "File Category"
+#~ msgstr "文件分類"
+
+#~ msgid "Download Page URL"
+#~ msgstr "下載頁面URL"
+
+#~ msgid "Download Nice Permalink"
+#~ msgstr "使用固定鏈接"
+
+#~ msgid "Download Categories"
+#~ msgstr "下載分類"
+
+#~ msgid "Download Page URL:"
+#~ msgstr "下載頁面URL："
+
+#~ msgid "The url to the downloads page (without trailing slash)."
+#~ msgstr "到下載頁面的URL （最後不要加 / ）"
+
+#~ msgid "Download Categories:"
+#~ msgstr "下載分類："
+
+#~ msgid "Start each entry on a new line."
+#~ msgstr "每項一行。"
+
+#~ msgid ""
+#~ "The <strong>first line</strong> will have a category id of <strong>1</"
+#~ "strong>."
+#~ msgstr "<strong>第一行</strong>的分類ID為 <strong>1</strong>."
+
+#~ msgid ""
+#~ "The <strong>2nd line</strong> will have a category id of <strong>2</"
+#~ "strong>."
+#~ msgstr "<strong>第二行</strong>的分類ID為 <strong>2</strong>."
+
+#~ msgid "And so on and so forth."
+#~ msgstr "依此類推。"
+
+#~ msgid "Download Listing Options"
+#~ msgstr "下載列表選項："
+
+#~ msgid "Sort Downloads By:"
+#~ msgstr "下載排序："
+
+#~ msgid "Sort Order Of Downloads:"
+#~ msgstr "排序方式："
+
+#~ msgid "No. Of Downloads Per Page:"
+#~ msgstr "每頁下載數量："
+
+#~ msgid "Group By:"
+#~ msgstr "分組："
+
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgid "Categories"
+#~ msgstr "分類"
+
+#~ msgid "Download RSS Options"
+#~ msgstr "RSS選項："
+
+#~ msgid "Sort Downloads In Feed By:"
+#~ msgstr "在Feed 中以？排序:"
+
+#~ msgid "File Last Updated Date"
+#~ msgstr "文件最後更新日期"
+
+#~ msgid "Sorting are done in descending order."
+#~ msgstr "以降序方式排序。"
+
+#~ msgid "No. Of Downloads In Feed:"
+#~ msgstr "在Feed中顯示下載文件數量："
+
+#~ msgid " Downloads RSS Feed"
+#~ msgstr "RSS Feed"
+
+#~ msgid "File Size: %s"
+#~ msgstr "文件大小：%s"
+
+#~ msgid "File Hits: %s"
+#~ msgstr "文件下載量：%s"
+
+#~ msgid "File Last Updated: %s"
+#~ msgstr "文件最後更新：%s"
+
+#~ msgid "Search"
+#~ msgstr "搜索"
+
+#~ msgid "No Files Found."
+#~ msgstr "找不到文件。"
+
+#~ msgid "Template Variables"
+#~ msgstr "模板變量"
+
+#~ msgid "total"
+#~ msgstr "總共"
+
+#~ msgid "Page %s of %s"
+#~ msgstr "頁面： %s / %s"
+
+#~ msgid "&laquo; First"
+#~ msgstr "&laquo; 第一"
+
+#~ msgid "Last &raquo;"
+#~ msgstr "最後&raquo;"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"

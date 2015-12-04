@@ -1,0 +1,19 @@
+div.wrap{
+	width:740px;
+}
+div#anylink_index {
+	margin-top:10px;
+}
+span.plain {
+	line-height:25px;
+}
+div#anylink_bar,#slug_bar {
+	width: 600px;
+	height:25px;
+	border: solid 1px #000;
+}
+div#anylink_proceeding ,#anylink_slug_proceeding{
+	width:0;
+	height:25px;
+	background-color:#00f;
+}

@@ -1,0 +1,47 @@
+/**
+ * $Id: download-admin-css.css 441862 2011-09-22 00:07:43Z ihacklog $
+ * $Revision: 441862 $
+ * $Date: 2011-09-22 00:07:43 +0000 (Thu, 22 Sep 2011) $
+ * @package Hacklog-DownloadManager
+ * @encoding UTF-8 
+ * @author 荒野无灯 <HuangYeWuDeng> 
+ * @link http://ihacklog.com 
+ * @copyright Copyright (C) 2011 荒野无灯 
+ * @license http://www.gnu.org/licenses/
+ */
+
+#icon-hacklog-downloadmanager {
+	background: transparent url(images/download_admin_icon.png) no-repeat;
+}
+
+.table-downloadmanager-tab td ,.table-downloadmanager-tab td select {
+    max-width: 520px;
+}
+
+.table-downloadmanager-tab {
+	 margin: 1em !important;
+}
+
+.download-page-item,.download-page-item-current {
+	margin:3px 5px;
+	padding:6px 10px;
+}
+
+.download-page-item-current{
+	color:#464646;
+}
+a.download-page-item:hover {
+	background-color:#ececec;
+}
+
+
+#hacklogdm-filetree {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #BBBBBB #FFFFFF #FFFFFF #BBBBBB;
+    border-style: solid;
+    border-width: 1px;
+    height: 400px;
+    overflow: scroll;
+    padding: 5px;
+    width: 500px;
+}

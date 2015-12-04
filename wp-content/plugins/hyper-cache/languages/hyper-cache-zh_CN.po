@@ -1,0 +1,499 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hyper-cache\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-21 12:17+0800\n"
+"PO-Revision-Date: 2014-08-21 12:37+0800\n"
+"Last-Translator: 逍遥乐汉化 <luoxiao123@outlook.com>\n"
+"Language-Team: 逍遥乐汉化 <luoxiao123@outlook.com>\n"
+"Language: zh_Hans_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.7\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../options.php:70
+msgid "Options saved. If you changes any of the bypasses empty the cache."
+msgstr "选项已保存。你的任何改变会绕过清空缓存。"
+
+#: ../options.php:83
+msgid "The cache folder has been cleaned."
+msgstr "缓存文件夹已被清空。"
+
+#: ../options.php:130
+msgid "Cache size"
+msgstr "缓存大小"
+
+#: ../options.php:259
+msgid "Clean the whole cache"
+msgstr "清空所有缓存"
+
+#: ../options.php:260
+msgid "Clean home and archives"
+msgstr "清空首页和归档"
+
+#: ../options.php:261
+msgid "Compute the cache size"
+msgstr "计算缓存大小"
+
+#: ../options.php:262
+msgid "Import old options"
+msgstr "导入以前的选项"
+
+#: ../options.php:267
+msgid "General"
+msgstr "常规"
+
+#: ../options.php:268
+msgid "Bypasses"
+msgstr "绕过"
+
+#: ../options.php:269
+msgid "Mobile"
+msgstr "移动设备"
+
+#: ../options.php:286
+msgid "Cached pages will be valid for"
+msgstr "缓存的页面将是有效的"
+
+#: ../options.php:289
+msgid "0 means forever."
+msgstr "0 表示永久。"
+
+#: ../options.php:293
+msgid "Enable compression"
+msgstr "启用压缩"
+
+#: ../options.php:314
+msgid "Cache folder"
+msgstr "缓存文件夹"
+
+#: ../options.php:325
+msgid "Next autoclean will run in"
+msgstr "接下来自动清除将运行在"
+
+#: ../options.php:334
+msgid "Allow browser caching"
+msgstr "允许浏览器缓存"
+
+#: ../options.php:350
+msgid "HTTPS separated cache"
+msgstr "HTTPS分开缓存"
+
+#: ../options.php:367
+msgid "Do not cache the home page"
+msgstr "不要缓存首页"
+
+#: ../options.php:376
+msgid "Do not cache the \"404 - Not found\" page"
+msgstr "不要缓存 \"404 - 未发现\" 页面"
+
+#: ../options.php:386
+msgid "Do not cache the blog main feeds"
+msgstr "不要缓存博客主要Feed订阅"
+
+#: ../options.php:396
+msgid "Do not cache single post comment feed"
+msgstr "不要缓存单个文章评论feed订阅"
+
+#: ../options.php:407
+msgid "Exact URIs to bypass"
+msgstr "绕过精确的URI"
+
+#: ../options.php:409 ../options.php:423 ../options.php:437 ../options.php:448
+#: ../options.php:460
+msgid "Enable"
+msgstr "启用"
+
+#: ../options.php:412 ../options.php:426 ../options.php:440 ../options.php:451
+#: ../options.php:517
+msgid "One per line"
+msgstr "每行一个"
+
+#: ../options.php:421
+msgid "(Starting with) URIs to bypass"
+msgstr "绕过一开始的URI"
+
+#: ../options.php:435
+msgid "Cookies to bypass"
+msgstr "绕过Cookies"
+
+#: ../options.php:446
+msgid "Agents to bypass"
+msgstr "绕过代理"
+
+#: ../options.php:458
+msgid "Don't serve cached pages to comment authors"
+msgstr "不要缓存评论作者页面"
+
+#: ../options.php:472
+msgid "Reject posts older than"
+msgstr "拒绝旧的文章"
+
+#: ../options.php:487
+msgid "Working mode"
+msgstr "工作模式"
+
+#: ../options.php:496
+msgid "Mobile theme"
+msgstr "移动主题"
+
+#: ../options.php:512
+msgid "Mobile user agents"
+msgstr "移动用户代理（user agents）"
+
+#: ../options.php:530
+msgid "Save"
+msgstr "保存"
+
+#~ msgid ""
+#~ "Sorry, Image Watermark plugin requires at least PHP 5.0 and WP 3.5 or "
+#~ "higher."
+#~ msgstr "对不起，图片水印插件需要至少PHP 5.0和W P3.5或更高版本。"
+
+#~ msgid ""
+#~ "Watermark could not be applied to selected files or no valid images "
+#~ "(JPEG, PNG) were selected."
+#~ msgstr "水印不能被应用到选定的文件或者没有有效的图像（JPEG，PNG）被选定。"
+
+#~ msgid "Skipped files"
+#~ msgstr "跳过的文件"
+
+#~ msgid "Watermark was succesfully applied to 1 image."
+#~ msgid_plural "Watermark was succesfully applied to %s images."
+#~ msgstr[0] "水印被成功地应用到1个图像。"
+#~ msgstr[1] "水印被成功地应用到%s个图像。"
+
+#~ msgid "Support"
+#~ msgstr "支持"
+
+#~ msgid "Settings"
+#~ msgstr "设置"
+
+#~ msgid "Apply watermark"
+#~ msgstr "添加水印"
+
+#~ msgid "Select watermark"
+#~ msgstr "选择水印"
+
+#~ msgid "Original size"
+#~ msgstr "原稿尺寸"
+
+#~ msgid "Watermak has not been selected yet."
+#~ msgstr "水印没有被选中。"
+
+#~ msgid "This image is not supported as watermark. Use JPEG, PNG or GIF."
+#~ msgstr "此图片是不支持的水印。只能使用JPEG，PNG或GIF格式的图像。"
+
+#~ msgid "Add watermark"
+#~ msgstr "添加水印"
+
+#~ msgid "Are you sure you want to reset settings to defaults?"
+#~ msgstr "您确定要重置设置为默认值？"
+
+#~ msgid "Image Watermark Options"
+#~ msgstr "图像水印选项"
+
+#~ msgid "Watermark"
+#~ msgstr "水印"
+
+#~ msgid "Image Watermark will not work properly without GD PHP extension."
+#~ msgstr "没有GD PHP扩展图像水印将无法正常工作。"
+
+#~ msgid "Settings saved."
+#~ msgstr "设置已保存。"
+
+#~ msgid "Settings restored to defaults."
+#~ msgstr "设置已恢复到默认值。"
+
+#~ msgid ""
+#~ "Watermark will not be applied when <b>watermark image is not set</b>."
+#~ msgstr "当<b>水印图像没有设置</b>水印将不会被应用。"
+
+#~ msgid ""
+#~ "Watermark will not be applied when <b>no image sizes are selected</b>."
+#~ msgstr "当<b>无图像尺寸被选择</b>水印将不会被应用。"
+
+#~ msgid ""
+#~ "Watermark will not be applied while frontend image upload if <b>watermark "
+#~ "image is not set</b>."
+#~ msgstr "如果<b>水印图像没有设置</b>，而前端图像上传,水印将不会被应用。"
+
+#~ msgid ""
+#~ "Watermark will not be applied while frontend image upload if <b>no image "
+#~ "sizes are selected</b>."
+#~ msgstr "如果<b>没有图像尺寸被选择</b>，而前端图像上传,水印将不会被应用。"
+
+#~ msgid "Image Watermark Settings"
+#~ msgstr "图像水印设置"
+
+#~ msgid "Image Watermark"
+#~ msgstr "图像水印"
+
+#~ msgid "Need support?"
+#~ msgstr "需要支持吗？"
+
+#~ msgid ""
+#~ "If you are having problems with this plugin, please talk about them in the"
+#~ msgstr ""
+#~ "更多汉化主题和汉化插件请关注逍遥乐汉化-逍遥乐IT博客：<a href=\"http://www."
+#~ "luoxiao123.cn\">逍遥乐汉化</a><br>如果您有这个插件的任何问题，告诉在"
+
+#~ msgid "Support forum"
+#~ msgstr "支持论坛"
+
+#~ msgid "Do you like this plugin?"
+#~ msgstr "你喜欢这个插件？"
+
+#~ msgid "Rate it 5"
+#~ msgstr "评分5"
+
+#~ msgid "on WordPress.org"
+#~ msgstr ""
+#~ "在 WordPress.org<br>如果你有更多汉化问题请访问逍遥乐汉化：<a href="
+#~ "\"http://www.luoxiao123.cn\">逍遥乐汉化</a>"
+
+#~ msgid "Blog about it & link to the"
+#~ msgstr "在博客添加关于它的链接"
+
+#~ msgid "plugin page"
+#~ msgstr "插件页面"
+
+#~ msgid "Check out our other"
+#~ msgstr "看看我们的其他"
+
+#~ msgid "WordPress plugins"
+#~ msgstr "WordPress插件"
+
+#~ msgid "Created by"
+#~ msgstr "创建者"
+
+#~ msgid "Automatic watermarking"
+#~ msgstr "自动添加水印"
+
+#~ msgid "on"
+#~ msgstr "开启"
+
+#~ msgid "off"
+#~ msgstr "关闭"
+
+#~ msgid "Enable or disable watermark for uploaded images."
+#~ msgstr "对上传的图片启用或禁用水印。"
+
+#~ msgid "Manual watermarking"
+#~ msgstr "手动添加水印"
+
+#~ msgid ""
+#~ "Enable or disable Apply Watermark option for images in Media Library."
+#~ msgstr "启用或禁用添加水印到媒体库中的图像。"
+
+#~ msgid "Enable watermark for"
+#~ msgstr "启用水印"
+
+#~ msgid ""
+#~ "Check image sizes on which watermark should appear.<br /"
+#~ "><strong>IMPORTANT:</strong> checking full size is NOT recommended as "
+#~ "it's the original image. You may need it later - for removing or changing "
+#~ "watermark, image sizes regeneration or any other image manipulations. Use "
+#~ "it only if you know what you are doing."
+#~ msgstr ""
+#~ "选择水印应该出现的图像尺寸<br /><strong>重要提示：</strong> 不推荐选择全尺"
+#~ "寸，因为它是原始图像。你以后可能会需要它 - 去除或改变水印，图像尺寸再生或"
+#~ "任何其他图像操作，使用它只有当你知道你在做什么。"
+
+#~ msgid "everywhere"
+#~ msgstr "所有位置"
+
+#~ msgid "on selected post types only"
+#~ msgstr "只在选择的文章类型"
+
+#~ msgid ""
+#~ "Check custom post types on which watermark should be applied to uploaded "
+#~ "images."
+#~ msgstr "选择其中的水印应适用于自定义文章类型上传的图片。"
+
+#~ msgid "Automatic frontend watermarking"
+#~ msgstr "自动前端水印"
+
+#~ msgid ""
+#~ "Enable or disable watermark for frontend image uploading. (uploading "
+#~ "script is not included, but you may use a plugin or custom code). "
+#~ "<strong>Notice:</strong> This functionality works only if uploaded images "
+#~ "are processed using WordPress native upload methods."
+#~ msgstr ""
+#~ "启用或禁用水印前端上传图像。 （上传脚本是不包括在内，但你可以使用一个插件"
+#~ "或自定义代码）。 <strong>注意：</strong>此功能只有当上传的图片都使用"
+#~ "WordPress本地上传方法处理才能实现。"
+
+#~ msgid "Plugin deactivation"
+#~ msgstr "停用插件"
+
+#~ msgid "Delete all database settings on plugin deactivation."
+#~ msgstr "停用插件时删除所有的数据库设置。"
+
+#~ msgid "Watermark position"
+#~ msgstr "水印位置"
+
+#~ msgid "Watermark alignment"
+#~ msgstr "水印对齐方式"
+
+#~ msgid "Choose the position of watermark image."
+#~ msgstr "选择水印在图片上的位置"
+
+#~ msgid "Watermark offset"
+#~ msgstr "水印偏移"
+
+#~ msgid "x:"
+#~ msgstr "x:"
+
+#~ msgid "px"
+#~ msgstr "像素"
+
+#~ msgid "y:"
+#~ msgstr "y:"
+
+#~ msgid "Watermark image"
+#~ msgstr "水印图像"
+
+#~ msgid ""
+#~ "Configure your watermark image. Allowed file formats are: JPEG, PNG, GIF."
+#~ msgstr "配置你的水印图像。可以接受的文件格式为JPEG，PNG，GIF等。"
+
+#~ msgid "Select image"
+#~ msgstr "选择图像"
+
+#~ msgid "Turn off image"
+#~ msgstr "关闭图像"
+
+#~ msgid ""
+#~ "You have to save changes after the selection or removal of the image."
+#~ msgstr "您必须选择或清除图像后保存更改。"
+
+#~ msgid "Watermark preview"
+#~ msgstr "水印预览"
+
+#~ msgid "Watermark size"
+#~ msgstr "水印大小"
+
+#~ msgid "original"
+#~ msgstr "原始"
+
+#~ msgid "custom"
+#~ msgstr "自定义"
+
+#~ msgid "scaled"
+#~ msgstr "缩放"
+
+#~ msgid "Select method of aplying watermark size."
+#~ msgstr "选择用于确定水印大小的方法。"
+
+#~ msgid "Watermark custom size"
+#~ msgstr "水印自定义尺寸"
+
+#~ msgid ""
+#~ "Those dimensions will be used if \"custom\" method is selected above."
+#~ msgstr "如果上面选择 \"自定义 \"方法，这些尺寸将被使用。"
+
+#~ msgid "Scale of watermark in relation to image width"
+#~ msgstr "水印相对于图像的宽度规模"
+
+#~ msgid ""
+#~ "This value will be used if \"scaled\" method if selected above. <br /"
+#~ ">Enter a number ranging from 0 to 100. 100 makes width of watermark image "
+#~ "equal to width of the image it is applied to."
+#~ msgstr ""
+#~ "如果选择上面\"缩放\"方法，这个值将被使用。 <br />输入一个数字范围从0到"
+#~ "100。如果为100使得宽度的水印图像等于宽度将它应用到图像的，即宽度为100%。"
+
+#~ msgid "Watermark transparency / opacity"
+#~ msgstr "水印透明/不透明"
+
+#~ msgid ""
+#~ "Enter a number ranging from 0 to 100. 0 makes watermark image completely "
+#~ "transparent, 100 shows it as is."
+#~ msgstr ""
+#~ "输入一个数字范围：从0到100。0使得水印图像完全透明，100表示保持原样。"
+
+#~ msgid "Image quality"
+#~ msgstr "图像质量"
+
+#~ msgid "Set output image quality."
+#~ msgstr "设置输出的图像质量。"
+
+#~ msgid "Image format"
+#~ msgstr "图像格式"
+
+#~ msgid "baseline"
+#~ msgstr "基线"
+
+#~ msgid "progressive"
+#~ msgstr "逐行"
+
+#~ msgid "Select baseline or progressive image format."
+#~ msgstr "选择图像格式。"
+
+#~ msgid "Image protection"
+#~ msgstr "图像保护"
+
+#~ msgid "Disable right mouse click on images"
+#~ msgstr "禁用鼠标右键点击图片"
+
+#~ msgid "Prevent drag and drop"
+#~ msgstr "防止拖放"
+
+#~ msgid "Enable image protection for logged-in users also"
+#~ msgstr "对登录用户也启用图像保护"
+
+#~ msgid "Save Changes"
+#~ msgstr "保存更改"
+
+#~ msgid "Reset to defaults"
+#~ msgstr "重置为默认值"
+
+#~ msgid ""
+#~ "Check image sizes on which watermark should appear. <b>Notice:</b> "
+#~ "checking full size is not recommened as it's the original image."
+#~ msgstr ""
+#~ "Zaznacz wielkości obazków dla których będzie dodany znak wodny. <b>Uwaga:"
+#~ "</b> zaznaczenie pełnej wielkości nie jest rekomendowane, ponieważ jest "
+#~ "to oryginał obrazka."
+
+#, fuzzy
+#~ msgid "Enable or disable watermark for uploaded images on frontend."
+#~ msgstr "Włącz lub wyłącz dodawanie znaku wodnego do wgrywanych obrazków."
+
+#~ msgid "Check image sizes on which watermark should appear."
+#~ msgstr "Zaznacz wielkości obrazków dla których ma być dodawany znak wodny."
+
+#~ msgid "Width"
+#~ msgstr "Szerokość"
+
+#~ msgid "Watermark Preview"
+#~ msgstr "Podgląd obrazka"
+
+#~ msgid "WordPress Watermark"
+#~ msgstr "Znak wodny"
+
+#~ msgid "Options updated."
+#~ msgstr "Ustawienia zostały zaktualizowane"
+
+#~ msgid "Watermark image URL"
+#~ msgstr "Ścieżka do obrazka"
+
+#~ msgid "Upload Image"
+#~ msgstr "Wgraj obrazek"
+
+#~ msgid ""
+#~ "Enter an URL, upload an image or select image from media library.<br /"
+#~ "><b>Important:</b> You must select a <b>file URL</b> while inserting "
+#~ "image."
+#~ msgstr ""
+#~ "Podaj adres URL, wgraj obrazek lub wybierz obrazek z biblioteki mediów."
+#~ "<br /><b>Ważne:</b> Dodając obrazek musisz zaznaczyć <b>Adres URL pliku</"
+#~ "b>."

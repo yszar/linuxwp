@@ -1,0 +1,9 @@
+# BEGIN W3TC Browser Cache
+#gzip on;
+gzip_types text/css text/x-component application/x-javascript application/javascript text/javascript text/x-js text/richtext image/svg+xml text/plain text/xsd text/xsl text/xml image/x-icon;
+# END W3TC Browser Cache
+# BEGIN W3TC Minify core
+rewrite ^/wp-content/cache/minify.*/w3tc_rewrite_test$ /wp-content/plugins/w3-total-cache/pub/minify.php?w3tc_rewrite_test=1 last;
+rewrite ^/wp-content/cache/minify/(.+/[X]+\.css)$ /wp-content/plugins/w3-total-cache/pub/minify.php?test_file=$1 last;
+rewrite ^/wp-content/cache/minify/(.+\.(css|js))$ /wp-content/plugins/w3-total-cache/pub/minify.php?file=$1 last;
+# END W3TC Minify core

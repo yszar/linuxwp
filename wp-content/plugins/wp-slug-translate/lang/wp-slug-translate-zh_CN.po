@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Slug Translate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-04 12:36+0800\n"
+"PO-Revision-Date: 2013-07-04 12:36+0800\n"
+"Last-Translator: 夜光 <berttung(#)gmail.com>\n"
+"Language-Team: 玻璃泉BoLiQuan.COM <berttung(#)gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-slug-translate\n"
+
+#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-slug-translate/wp-slug-translate.php:169
+msgid "Settings"
+msgstr "设置"
+
+#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-slug-translate/wp_slug_translate_admin.php:24
+msgid "Default settings restored!"
+msgstr "已恢复默认设置！"
+
+#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-slug-translate/wp_slug_translate_admin.php:40
+msgid "Apply for your own ClientID and ClientSecret"
+msgstr "申请你自己的ClientID与ClientSecret"
+
+#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-slug-translate/wp_slug_translate_admin.php:40
+msgid "Tutorial"
+msgstr "申请教程"
+
+#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-slug-translate/wp_slug_translate_admin.php:55
+msgid "Source Language"
+msgstr "撰写博客使用的语言"
+
+#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-slug-translate/wp_slug_translate_admin.php:106
+msgid "Second Mode"
+msgstr "第二工作模式"
+
+#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-slug-translate/wp_slug_translate_admin.php:111
+msgid "Running in the second mode."
+msgstr "以第二工作模式运行,兼容同步微博等插件,实时翻译别名."
+
+#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-slug-translate/wp_slug_translate_admin.php:117
+msgid "Delete Options"
+msgstr "卸载时删除设置数据"
+
+#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-slug-translate/wp_slug_translate_admin.php:122
+msgid "Delete options while deactivate this plugin."
+msgstr "当卸载此插件时自动删除设置数据."
+
+#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-slug-translate/wp_slug_translate_admin.php:129
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: D:\xampp\htdocs\wordpress\wp-content\plugins\wp-slug-translate/wp_slug_translate_admin.php:136
+msgid "Reset"
+msgstr "重置"
+

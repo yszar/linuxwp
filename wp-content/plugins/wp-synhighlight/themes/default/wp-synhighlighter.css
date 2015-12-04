@@ -1,0 +1,102 @@
+div.wp-synhighlighter-outer {
+	
+}
+
+div.wp-synhighlighter-inner {
+	height: auto;
+	max-height: 300px;
+	overflow: auto;
+	background: #E9E9E6 none repeat scroll 0 0;
+	padding: 0;
+	border-color: #C3CBD1;
+	border-style: solid;
+	border-width: 1px 1px 1px 2px;
+	clear: both;
+	margin-top: 8px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+	display: block;
+	padding-left: 14px;
+	line-height: normal;
+	text-align: left;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+}
+
+
+
+div.wp-synhighlighter-collapsed {
+	background: #E9E9E6 none repeat scroll 0 0;
+	border-color: #C3CBD1;
+	border-style: solid;
+	border-width: 1px 1px 1px 2px;
+	clear: both;
+	background: transparent url(images/icon_plus.gif) no-repeat scroll left
+		center;
+	display: block;
+	padding-left: 14px;
+	margin-top: 8px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	line-height: normal;
+	text-align: left;	
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+}
+
+div.wp-synhighlighter-expanded {
+	background: #E9E9E6 none repeat scroll 0 0;
+	border-color: #C3CBD1;
+	border-style: solid;
+	border-width: 1px 1px 1px 2px;
+	clear: both;
+	background: transparent url(images/icon_minus.gif) no-repeat scroll left
+		center;
+	display: block;
+	padding-left: 14px;
+	margin-top: 8px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	line-height: normal;
+	text-align: left;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+}
+
+
+a.wp-synhighlighter-title {
+	cursor: pointer;
+	font-size: small;
+}
+
+div.wp-synhighlighter-inner pre {
+	background: none;
+	border: none;
+	margin: auto;
+	padding: inherit;
+	line-height: normal;
+}
+
+div.wp-synhighlighter-inner ol {
+	list-style-position: outside !important;
+	padding: 0;
+}
+
+div.wp-synhighlighter-inner li {
+	list-style-position: outside !important
+}
